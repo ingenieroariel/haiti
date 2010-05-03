@@ -1,0 +1,49 @@
+@import "boilerplate.css";
+@import "plugins.css";
+
+/* -------------------------------------------------------------- 
+   SCREEN
+-------------------------------------------------------------- */
+
+/* Put your site styles here */
+
+div#container {  
+margin: 0px auto;
+ }
+
+div#content {  
+margin: 20px;
+ }
+div#hazard-map {  
+background: #eee; 
+height: 450px;
+ }
+p.intro {  
+width: 800px;
+ }
+ul.overview {  
+font-size: 20px;
+ }
+
+ul.tabs {
+padding-left: 15px;
+background: #333;
+ }
+ul.tabs li {  
+margin: 5px 5px 0; 
+ }
+
+ul.tabs li a {  
+color: #fff;
+padding: 5px 10px;
+ }
+ul.tabs li.active {  
+background: #fff;
+ }
+ul.tabs li.active a {  
+color: #333;
+ }
+ul.tabs li.search {  
+float: right; 
+margin-right: 15px;
+ }

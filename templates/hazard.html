@@ -1,0 +1,66 @@
+{% extends "base.html" %} 
+{% block title %} MyHazard Haiti {% endblock %} 
+
+{% block header_append %} 
+   <script src="/static/ol/OpenLayers.js"></script> 
+   <script src="/static/hazard.js"></script> 
+{% endblock %}
+
+{% block content %} 
+<div id="hazard-map"></div>
+
+<ul class="tabs"> 
+  <li class="active"><a href="#">Welcome</a></li> 
+  <li><a href="#">Maps</a></li> 
+  <li><a href="#">Reports</a></li> 
+  <li><a href="#">Data</a></li> 
+  <li class="search"> 
+    <form action="/search" method="POST">
+      <input type="text" name="query" /> 
+    </form>
+  </li>
+</ul>
+
+<div id="content">
+<table>
+  <tr>
+    <td> 
+    <h1>Welcome to MyHazard Haiti</h1>
+    <p class="intro"> Lorem ipsum dolor sit amet, consectetur adipiscing
+    elit. Mauris sit amet dui nec mauris condimentum hendrerit a sit
+    amet lacus. Curabitur bibendum eleifend tortor in
+    scelerisque. Curabitur mattis pharetra scelerisque. Pellentesque
+    habitant morbi tristique senectus et netus et malesuada fames ac
+    turpis egestas. Duis volutpat enim id nulla eleifend at mattis
+    elit eleifend. Vestibulum ante ipsum primis in faucibus orci
+    luctus et ultrices posuere cubilia Curae; Sed rutrum molestie
+    augue ut malesuada. Vivamus bibendum dolor ut mauris placerat
+    accumsan. Fusce at augue ut neque semper posuere at sit amet
+    lorem. Duis ut sagittis mi. Proin lacus erat, sodales vitae
+    malesuada sit amet, porta sed nunc.</p>
+  
+    <p>
+      <img src="/static/images/worldbank.gif" alt="World Bank Logo" />
+      <strong>A project of the World Bank</strong>
+    </p>
+    </td> 
+    <td>
+      <ul class="overview"> 
+        <li>
+          <a href="#">Hazard and Damage Maps</a>
+          <p>Print ready atlases of haitian damage assessments and hazard risks
+        </li>
+        <li>
+          <a href="#">Hazard reports</a>
+          <p>Multi-hazard assessment reports from the World Bank, UN and EU</p>
+        </li>
+        <li>
+          <a href="#">Raw Data</a>
+          <p>Explore our catalogue of damage hazard and other data</p>
+        </li>
+      </ul>
+    </td>
+  </tr> 
+</table>
+</div>
+{% endblock %} 

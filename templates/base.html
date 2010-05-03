@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html> 
+    <head> 
+        <title>{% block title %} {% endblock %}</title>
+        <link rel="stylesheet" href="/static/screen.css" type="text/css" media="screen" charset="utf-8">
+         <!--[if lte IE 6]>
+             <link rel="stylesheet" href="static/ie6.css" type="text/css" media="screen" charset="utf-8">
+             <![endif]-->
+
+         {% block header_append %} 
+         {% endblock %}
+    </head>
+    <body onload="loadMap()"> 
+      <div id="container">
+      {% block content %} 
+      {% endblock %} 
+      </div>
+    </body> 
+</html> 

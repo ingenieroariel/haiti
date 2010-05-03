@@ -3,5 +3,5 @@ from haiti.myhazard import views
 
 urlpatterns = patterns('',
     # Example:
-    (r'^/',views.index),
+    (r'^',views.index),
 )

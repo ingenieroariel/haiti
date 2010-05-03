@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/10266/trunk/openlayers/tests/Protocol
+END
+HTTP.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/10266/trunk/openlayers/tests/Protocol/HTTP.html
+END
+SQL.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/8008/trunk/openlayers/tests/Protocol/SQL.html
+END
+WFS.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/9725/trunk/openlayers/tests/Protocol/WFS.html
+END
+SOS.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/9912/trunk/openlayers/tests/Protocol/SOS.html
+END
