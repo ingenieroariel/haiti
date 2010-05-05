@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/geoext/!svn/ver/2074/core/trunk/geoext/examples/data
+END
+summits.json
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/geoext/!svn/ver/378/core/trunk/geoext/examples/data/summits.json
+END
+wmscap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/geoext/!svn/ver/1479/core/trunk/geoext/examples/data/wmscap.xml
+END
+describe_feature_type.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/geoext/!svn/ver/2074/core/trunk/geoext/examples/data/describe_feature_type.xml
+END

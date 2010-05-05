@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/!svn/ver/2081/ext/3.2.0/src/util
+END
+Observable-more.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2081/ext/3.2.0/src/util/Observable-more.js
+END
+KeyMap.js
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/2081/ext/3.2.0/src/util/KeyMap.js
+END
+CSS.js
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/2081/ext/3.2.0/src/util/CSS.js
+END
+Format.js
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/2081/ext/3.2.0/src/util/Format.js
+END
+TextMetrics.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/2081/ext/3.2.0/src/util/TextMetrics.js
+END
+Cookies.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/2081/ext/3.2.0/src/util/Cookies.js
+END
+ClickRepeater.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2081/ext/3.2.0/src/util/ClickRepeater.js
+END
+Date.js
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/2081/ext/3.2.0/src/util/Date.js
+END
+KeyNav.js
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/2081/ext/3.2.0/src/util/KeyNav.js
+END
+UpdateManager.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2081/ext/3.2.0/src/util/UpdateManager.js
+END
+History.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/2081/ext/3.2.0/src/util/History.js
+END
+MixedCollection.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2081/ext/3.2.0/src/util/MixedCollection.js
+END
+XTemplate.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2081/ext/3.2.0/src/util/XTemplate.js
+END

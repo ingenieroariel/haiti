@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/util
+END
+Observable.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/util/Observable.js
+END
+TaskMgr.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/util/TaskMgr.js
+END
+JSON.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/util/JSON.js
+END
+DelayedTask.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/util/DelayedTask.js
+END

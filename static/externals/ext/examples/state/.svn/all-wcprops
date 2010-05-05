@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/2081/ext/3.2.0/examples/state
+END
+save-state.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2081/ext/3.2.0/examples/state/save-state.php
+END
+get-state.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/examples/state/get-state.php
+END
+SessionProvider.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/2081/ext/3.2.0/examples/state/SessionProvider.js
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2081/ext/3.2.0/examples/state/README.txt
+END

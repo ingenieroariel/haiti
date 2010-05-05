@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/geoext/!svn/ver/2112/core/trunk/geoext/build
+END
+full.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/geoext/!svn/ver/1924/core/trunk/geoext/build/full.cfg
+END
+geoext-license.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/build/geoext-license.js
+END
+ext-license.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/geoext/!svn/ver/273/core/trunk/geoext/build/ext-license.js
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/geoext/!svn/ver/1158/core/trunk/geoext/build/readme.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/geoext/!svn/ver/2112/core/trunk/geoext/build/Makefile
+END

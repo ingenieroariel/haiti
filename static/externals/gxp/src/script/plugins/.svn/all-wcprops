@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gxp/!svn/ver/129/trunk/core/src/script/plugins
+END
+WMSSource.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gxp/!svn/ver/129/trunk/core/src/script/plugins/WMSSource.js
+END
+GoogleSource.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gxp/!svn/ver/124/trunk/core/src/script/plugins/GoogleSource.js
+END
+LayerSource.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gxp/!svn/ver/117/trunk/core/src/script/plugins/LayerSource.js
+END

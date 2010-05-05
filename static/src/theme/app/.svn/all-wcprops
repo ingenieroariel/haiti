@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/CAPRA/!svn/ver/1027/GeoNode/trunk/src/geonode-client/src/theme/app
+END
+about.css
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/about.css
+END
+geoexplorer.css
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CAPRA/!svn/ver/1027/GeoNode/trunk/src/geonode-client/src/theme/app/geoexplorer.css
+END
+ie.css
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/ie.css
+END
+site.css
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/CAPRA/!svn/ver/1010/GeoNode/trunk/src/geonode-client/src/theme/app/site.css
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gxp/!svn/ver/163/trunk/core/src/theme/img
+END
+accept.png
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gxp/!svn/ver/58/trunk/core/src/theme/img/accept.png
+END
+delete.png
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gxp/!svn/ver/14/trunk/core/src/theme/img/delete.png
+END
+decline.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gxp/!svn/ver/58/trunk/core/src/theme/img/decline.png
+END
+add.png
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gxp/!svn/ver/14/trunk/core/src/theme/img/add.png
+END
+pencil.png
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gxp/!svn/ver/58/trunk/core/src/theme/img/pencil.png
+END

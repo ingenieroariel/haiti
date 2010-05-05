@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/geoext/!svn/ver/2152/core/trunk/geoext/lib/GeoExt/data
+END
+ScaleStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/ScaleStore.js
+END
+PrintProvider.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/geoext/!svn/ver/2066/core/trunk/geoext/lib/GeoExt/data/PrintProvider.js
+END
+FeatureStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/FeatureStore.js
+END
+WMCReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/WMCReader.js
+END
+LayerRecord.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/LayerRecord.js
+END
+FeatureReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/FeatureReader.js
+END
+AttributeStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/geoext/!svn/ver/2152/core/trunk/geoext/lib/GeoExt/data/AttributeStore.js
+END
+WMSDescribeLayerStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/WMSDescribeLayerStore.js
+END
+WFSCapabilitiesStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/WFSCapabilitiesStore.js
+END
+AttributeReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/geoext/!svn/ver/2151/core/trunk/geoext/lib/GeoExt/data/AttributeReader.js
+END
+WMSDescribeLayerReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/WMSDescribeLayerReader.js
+END
+PrintPage.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/PrintPage.js
+END
+LayerStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/geoext/!svn/ver/2110/core/trunk/geoext/lib/GeoExt/data/LayerStore.js
+END
+FeatureRecord.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/FeatureRecord.js
+END
+WFSCapabilitiesReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/WFSCapabilitiesReader.js
+END
+WMSCapabilitiesStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/WMSCapabilitiesStore.js
+END
+LayerReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/LayerReader.js
+END
+WMSCapabilitiesReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/WMSCapabilitiesReader.js
+END
+ProtocolProxy.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/data/ProtocolProxy.js
+END

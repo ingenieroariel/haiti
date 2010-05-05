@@ -1,0 +1,415 @@
+/* Begin Blueprint */
+/* -----------------------------------------------------------------------
+
+
+ Blueprint CSS Framework 0.9
+ http://blueprintcss.org
+
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+----------------------------------------------------------------------- */
+
+
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:12px;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+/* typography.css */
+
+h1, h2, h3, h4, h5, h6 {
+}
+
+h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
+h2 { font-size: 2em; margin-bottom: 0.75em; }
+h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
+h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; height: 1.25em; }
+h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
+h6 { font-size: 1em; font-weight: bold; }
+
+h1 img, h2 img, h3 img, 
+h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+/* End Blueprint */
+
+
+/* Page Styles */
+
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande",Arial,Helvetica,sans-serif;
+}
+
+div#container {
+  margin: auto;
+  width: 950px;
+}
+
+div#header { 
+  background: url(img/geo_node_banner.png) no-repeat;
+  height: 70px;
+  margin-bottom: 6px;
+}
+
+div#header h1 { 
+  font-size:0;
+  text-indent: -999em;
+  font-size: 0;
+}
+
+div#header a {
+  display: block;
+  width: 440px;
+  height: 100%;
+  text-indent: -999em;
+  font-size: 0;
+}
+
+
+div#app-header { 
+  background: url(img/geo_node_banner_repeat.png) repeat-x;
+  height: 70px;
+}
+
+div#app-header a#banner{ 
+  background: url(img/geo_node_banner_modified.png) no-repeat;
+  height: 70px;
+  display: block;
+}
+
+div#lang { 
+  color:#FFFFFF;
+  margin-left:500px;
+  margin-top: 30px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ul#sitenav { 
+margin-bottom:20px;
+background: url(img/menu.png) no-repeat;
+height: 35px;
+width: 950px;
+font-family: "Lucida Grande",Arial,Helvetica,sans-serif;
+color: #333;
+line-height: 35px;
+}
+
+ul#sitenav li{ 
+display:inline;
+text-align:center;
+ }
+
+ul#sitenav li a { 
+text-align: center;
+width: 12.4%;
+display: block;
+float: left;
+vertical-align:middle;
+cursor: pointer;
+padding: 0 20px;
+font-size: 92%;
+color: #333;
+text-decoration: none;
+background: transparent url(img/mainnav-sep.gif) no-repeat scroll right bottom;
+ }
+
+ul#sitenav li.last a { background: none; }
+
+ul#sitenav li a.here{ 
+font-weight:bold;
+color: #000;
+ }
+
+ h3 { 
+ color: #C21317; 
+ }
+
+h4 { 
+font-weight:bold;
+color: #C21317; 
+ }
+
+div#sidebar{ 
+  float:right;
+  width: 350px; 
+  clear:none;
+}
+
+
+div#sidebar ul, div#main ul, div#sidebar ol, div#main ol{ 
+  list-style-position: inside;
+}
+
+div#main ul.x-tree-root-ct {
+  list-style-position: outside;
+}
+
+div#featured-map-metadata{
+border:1px solid black;
+background-color: #EEE;
+padding: 1em;
+ }
+
+div#featured-map-metadata p{
+margin-bottom: 0;
+}
+
+
+div#featured-map-metadata h4{
+height:auto;
+margin-bottom: 1em;
+ }
+
+
+div#featured-map-header{ 
+text-transform:uppercase;
+color: #333;
+font-weight: bold;
+margin-bottom:.75em;
+ }
+
+#main{
+  float:left;
+  width:580px;
+  clear:none;
+}
+
+#data{ 
+  margin: 20px 0;
+  background-color: #CCCCFF;
+ }
+
+
+p, ul#sitenav, ol, div#sidebar ul, div#main ul { /* This needs more breadth in the ul list*/ 
+margin-bottom: 2em;
+}
+
+div#sidebar ul, div#main ul { 
+  list-style-type: disc;
+}
+
+div#sidebar ol, div#main ol { 
+  list-style-type: decimal;
+}
+
+
+code { 
+font-family: "Courier New", Monospace;
+}
+
+/* CAPRA Styles */
+
+#ja-topbar{ 
+
+background:#FFFFFF url(img/language-en.png) no-repeat scroll 0 0;
+height:35px;
+margin:0 auto;
+position:relative;
+width:950px;
+
+ }
+
+#ja-topbar.es{ 
+
+background:#FFFFFF url(img/language-es.png) no-repeat scroll 0 0;
+ }
+
+
+#ja-search { 
+    padding-left:8px;
+}
+
+#ja-search .fullscreen {
+    align: right;
+}
+
+
+
+#ja-search form { display: inline; }
+
+#ja-search .english button { 
+width:74px;
+height: 30px;
+background: #FFF url(img/english.jpg) no-repeat scroll 0 0;
+border: none;
+display: block;
+float:left;
+ }
+
+#ja-search .spanish button { 
+width:62px;
+height: 30px;
+background: #FFF url(img/spanish.jpg) no-repeat scroll 0 0;
+border: none;
+display: block;
+float:left;
+ }
+
+div#app-header #ja-search button { 
+    float:right;
+}
+
+div#app-header #ja-search .spanish button { 
+    width: 16px;
+    height: 12px;
+    margin: 2px;
+    background: url(img/es.gif) no-repeat scroll 0 0;
+}
+
+div#app-header #ja-search .english button { 
+    width: 16px;
+    height: 12px;
+    margin: 2px;
+    background: url(img/gb.gif) no-repeat scroll 0 0;
+}
+
+#home{ 
+display: block;
+float:left;
+height: 30px;
+}
+
+.en a#home{ 
+width:65px;
+background: #FFF url(img/home.jpg) no-repeat scroll 0 0;
+ }
+
+.es a#home{ 
+background: #FFF url(img/inicio.png) no-repeat scroll 0 0;
+width: 50px;
+ }
+
+
+/* Application Styles  */
+
+#app-div{ 
+width:100%;
+height:85%;
+ }
+
+.x-btn .icon-create-map { 
+  background-image: url(img/silk/map_add.png);
+}
+
+
+.x-btn .icon-open-map { 
+  background-image: url(img/silk/map_magnify.png);
+}
+
+a.download { 
+  background-repeat:no-repeat;
+  padding-left: 18px;
+  padding-top: 2px;
+  padding-bottom:2px;
+}
+
+a.download.pdf{ 
+  background-image: url(img/silk/page_white_acrobat.png)
+}
+
+a.download.kml{ 
+  background-image: url(img/geosilk/kml.png)
+}
+
+a.download.geotiff{ 
+  background-image: url(img/geosilk/page_white_raster.png)
+}
+
+a.download.shp{ 
+  background-image: url(img/geosilk/page_white_vector.png)
+}
+
+a.download.ame{
+    background-image: url(img/silk/page_white.png)
+}
+
+.olControlAttribution{ 
+color:gray;
+bottom: .5em;
+left: .4em;
+right: 220px;
+text-size: smaller;
+}
+.login-widget{ 
+margin-top: 30px;
+margin-right: 10px;
+float: right;
+color: #fff;
+}
+.login-widget a { 
+	color: #fff;
+	}
+/* UTILITY CLASSES */
+
+.selfclear:after {
+content: " ";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+.selfclear {
+display: inline-block; /* IE 7 */
+}
+
+.selfclear {
+display: block;
+}
+
+* html .selfclear {
+height: 1px; /* IE < 7 */
+}
+
+.nodisplay { 
+display: none;
+}
+
+
+/*!
+ * Ext JS Library 3.2.0
+ * Copyright(c) 2006-2010 Ext JS, Inc.
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+/*
+ * FileUploadField component styles
+ */
+.x-form-file-wrap {
+    position: relative;
+    height: 22px;
+}
+.x-form-file-wrap .x-form-file {
+	position: absolute;
+	right: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+    height: 22px;
+}
+.x-form-file-wrap .x-form-file-btn {
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+.x-form-file-wrap .x-form-file-text {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    color: #777;
+}

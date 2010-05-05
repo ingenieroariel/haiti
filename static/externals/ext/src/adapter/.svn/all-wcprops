@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/2081/ext/3.2.0/src/adapter
+END
+ext-base-dom-more.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/2081/ext/3.2.0/src/adapter/ext-base-dom-more.js
+END
+jquery-bridge.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/src/adapter/jquery-bridge.js
+END
+prototype-bridge.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/2081/ext/3.2.0/src/adapter/prototype-bridge.js
+END
+yui-bridge.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2081/ext/3.2.0/src/adapter/yui-bridge.js
+END

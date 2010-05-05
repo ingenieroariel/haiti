@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/2081/ext/3.2.0/src/widgets/form
+END
+BasicForm.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/BasicForm.js
+END
+CompositeField.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/CompositeField.js
+END
+TriggerField.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/TriggerField.js
+END
+DisplayField.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/DisplayField.js
+END
+RadioGroup.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/RadioGroup.js
+END
+HtmlEditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/HtmlEditor.js
+END
+TextArea.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/TextArea.js
+END
+Action.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/Action.js
+END
+Label.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/Label.js
+END
+DateField.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/DateField.js
+END
+Field.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/Field.js
+END
+SliderField.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/SliderField.js
+END
+Checkbox.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/Checkbox.js
+END
+TextField.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/TextField.js
+END
+VTypes.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/VTypes.js
+END
+Hidden.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/Hidden.js
+END
+NumberField.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/NumberField.js
+END
+Radio.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/Radio.js
+END
+FieldSet.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/FieldSet.js
+END
+Combo.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/Combo.js
+END
+TimeField.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/TimeField.js
+END
+Form.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/Form.js
+END
+CheckboxGroup.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/2081/ext/3.2.0/src/widgets/form/CheckboxGroup.js
+END

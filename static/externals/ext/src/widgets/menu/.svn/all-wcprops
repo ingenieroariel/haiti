@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/2081/ext/3.2.0/src/widgets/menu
+END
+Menu.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/2081/ext/3.2.0/src/widgets/menu/Menu.js
+END
+BaseItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/src/widgets/menu/BaseItem.js
+END
+MenuMgr.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2081/ext/3.2.0/src/widgets/menu/MenuMgr.js
+END
+CheckItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2081/ext/3.2.0/src/widgets/menu/CheckItem.js
+END
+Item.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/2081/ext/3.2.0/src/widgets/menu/Item.js
+END
+Separator.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2081/ext/3.2.0/src/widgets/menu/Separator.js
+END
+DateMenu.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/src/widgets/menu/DateMenu.js
+END
+ColorMenu.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2081/ext/3.2.0/src/widgets/menu/ColorMenu.js
+END
+TextItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/src/widgets/menu/TextItem.js
+END

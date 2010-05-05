@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2081/ext/3.2.0/examples/writer/remote/lib
+END
+response.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/2081/ext/3.2.0/examples/writer/remote/lib/response.php
+END
+model.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/2081/ext/3.2.0/examples/writer/remote/lib/model.php
+END
+application_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/2081/ext/3.2.0/examples/writer/remote/lib/application_controller.php
+END
+request.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/2081/ext/3.2.0/examples/writer/remote/lib/request.php
+END
+session_db.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/2081/ext/3.2.0/examples/writer/remote/lib/session_db.php
+END

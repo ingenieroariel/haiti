@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/geoext/!svn/ver/2152/core/trunk/geoext/tests
+END
+xml_eq.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/geoext/!svn/ver/273/core/trunk/geoext/tests/xml_eq.js
+END
+geom_eq.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/geoext/!svn/ver/273/core/trunk/geoext/tests/geom_eq.js
+END
+run-tests.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/geoext/!svn/ver/273/core/trunk/geoext/tests/run-tests.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/geoext/!svn/ver/273/core/trunk/geoext/tests/index.html
+END
+list-tests.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/geoext/!svn/ver/2074/core/trunk/geoext/tests/list-tests.html
+END

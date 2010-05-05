@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/2081/ext/3.2.0/test/unit/widgets/layout
+END
+BoxLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/2081/ext/3.2.0/test/unit/widgets/layout/BoxLayout.js
+END
+VBoxLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/2081/ext/3.2.0/test/unit/widgets/layout/VBoxLayout.js
+END
+HBoxLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/2081/ext/3.2.0/test/unit/widgets/layout/HBoxLayout.js
+END
+ContainerLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/2081/ext/3.2.0/test/unit/widgets/layout/ContainerLayout.js
+END
+FormLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/2081/ext/3.2.0/test/unit/widgets/layout/FormLayout.js
+END

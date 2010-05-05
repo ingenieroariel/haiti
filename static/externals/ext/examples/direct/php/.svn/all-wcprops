@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/2081/ext/3.2.0/examples/direct/php
+END
+api.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2081/ext/3.2.0/examples/direct/php/api.php
+END
+router.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/2081/ext/3.2.0/examples/direct/php/router.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/2081/ext/3.2.0/examples/direct/php/config.php
+END
+poll.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/examples/direct/php/poll.php
+END

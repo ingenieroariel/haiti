@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/geoext/!svn/ver/2005/core/trunk/geoext/lib/overrides
+END
+override-ext-ajax.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/geoext/!svn/ver/2005/core/trunk/geoext/lib/overrides/override-ext-ajax.js
+END
+override-ext-ajax.jst
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/geoext/!svn/ver/1906/core/trunk/geoext/lib/overrides/override-ext-ajax.jst
+END

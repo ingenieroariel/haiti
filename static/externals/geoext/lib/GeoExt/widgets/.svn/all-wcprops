@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/geoext/!svn/ver/2154/core/trunk/geoext/lib/GeoExt/widgets
+END
+WMSLegend.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/geoext/!svn/ver/1980/core/trunk/geoext/lib/GeoExt/widgets/WMSLegend.js
+END
+ZoomSlider.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/widgets/ZoomSlider.js
+END
+LayerOpacitySlider.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/widgets/LayerOpacitySlider.js
+END
+PrintMapPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/widgets/PrintMapPanel.js
+END
+LayerLegend.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/geoext/!svn/ver/2099/core/trunk/geoext/lib/GeoExt/widgets/LayerLegend.js
+END
+Action.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/widgets/Action.js
+END
+MapPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/geoext/!svn/ver/1970/core/trunk/geoext/lib/GeoExt/widgets/MapPanel.js
+END
+LegendPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/geoext/!svn/ver/2099/core/trunk/geoext/lib/GeoExt/widgets/LegendPanel.js
+END
+VectorLegend.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/geoext/!svn/ver/2154/core/trunk/geoext/lib/GeoExt/widgets/VectorLegend.js
+END
+UrlLegend.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/geoext/!svn/ver/1967/core/trunk/geoext/lib/GeoExt/widgets/UrlLegend.js
+END
+LegendImage.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/widgets/LegendImage.js
+END
+FeatureRenderer.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/geoext/!svn/ver/1956/core/trunk/geoext/lib/GeoExt/widgets/FeatureRenderer.js
+END
+form.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/geoext/!svn/ver/1995/core/trunk/geoext/lib/GeoExt/widgets/form.js
+END
+Popup.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/geoext/!svn/ver/2021/core/trunk/geoext/lib/GeoExt/widgets/Popup.js
+END

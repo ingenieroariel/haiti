@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2081/ext/3.2.0/examples/restful/remote/lib
+END
+response.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/2081/ext/3.2.0/examples/restful/remote/lib/response.php
+END
+model.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/2081/ext/3.2.0/examples/restful/remote/lib/model.php
+END
+application_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/2081/ext/3.2.0/examples/restful/remote/lib/application_controller.php
+END
+request.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/2081/ext/3.2.0/examples/restful/remote/lib/request.php
+END
+session_db.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/2081/ext/3.2.0/examples/restful/remote/lib/session_db.php
+END

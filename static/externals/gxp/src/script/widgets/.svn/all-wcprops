@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gxp/!svn/ver/178/trunk/core/src/script/widgets
+END
+TextSymbolizer.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gxp/!svn/ver/154/trunk/core/src/script/widgets/TextSymbolizer.js
+END
+ScaleLimitPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gxp/!svn/ver/153/trunk/core/src/script/widgets/ScaleLimitPanel.js
+END
+FillSymbolizer.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gxp/!svn/ver/137/trunk/core/src/script/widgets/FillSymbolizer.js
+END
+PolygonSymbolizer.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gxp/!svn/ver/139/trunk/core/src/script/widgets/PolygonSymbolizer.js
+END
+LineSymbolizer.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gxp/!svn/ver/137/trunk/core/src/script/widgets/LineSymbolizer.js
+END
+PointSymbolizer.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gxp/!svn/ver/137/trunk/core/src/script/widgets/PointSymbolizer.js
+END
+GoogleEarthPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gxp/!svn/ver/130/trunk/core/src/script/widgets/GoogleEarthPanel.js
+END
+WMSLayerPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gxp/!svn/ver/165/trunk/core/src/script/widgets/WMSLayerPanel.js
+END
+QueryPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gxp/!svn/ver/97/trunk/core/src/script/widgets/QueryPanel.js
+END
+FeatureEditPopup.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gxp/!svn/ver/92/trunk/core/src/script/widgets/FeatureEditPopup.js
+END
+StrokeSymbolizer.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gxp/!svn/ver/137/trunk/core/src/script/widgets/StrokeSymbolizer.js
+END
+RulePanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gxp/!svn/ver/178/trunk/core/src/script/widgets/RulePanel.js
+END
+WMSStylesDialog.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gxp/!svn/ver/177/trunk/core/src/script/widgets/WMSStylesDialog.js
+END
+FilterBuilder.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gxp/!svn/ver/172/trunk/core/src/script/widgets/FilterBuilder.js
+END
+Viewer.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gxp/!svn/ver/127/trunk/core/src/script/widgets/Viewer.js
+END
+NewSourceWindow.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gxp/!svn/ver/102/trunk/core/src/script/widgets/NewSourceWindow.js
+END

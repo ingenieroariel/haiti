@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout
+END
+TableLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/TableLayout.js
+END
+AutoLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/AutoLayout.js
+END
+BoxLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/BoxLayout.js
+END
+CardLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/CardLayout.js
+END
+AnchorLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/AnchorLayout.js
+END
+BorderLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/BorderLayout.js
+END
+ColumnLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/ColumnLayout.js
+END
+AbsoluteLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/AbsoluteLayout.js
+END
+AccordionLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/AccordionLayout.js
+END
+ContainerLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/ContainerLayout.js
+END
+FitLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/FitLayout.js
+END
+ToolbarLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/ToolbarLayout.js
+END
+FormLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/FormLayout.js
+END
+MenuLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/2081/ext/3.2.0/src/widgets/layout/MenuLayout.js
+END

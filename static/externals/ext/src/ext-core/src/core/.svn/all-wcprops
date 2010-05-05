@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core
+END
+DomQuery.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/DomQuery.js
+END
+Element.fx.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/Element.fx.js
+END
+Element.scroll.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/Element.scroll.js
+END
+Element.style.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/Element.style.js
+END
+Element.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/Element.js
+END
+CompositeElementLite.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/CompositeElementLite.js
+END
+Element.traversal.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/Element.traversal.js
+END
+Template.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/Template.js
+END
+Element.position.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/Element.position.js
+END
+EventManager.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/EventManager.js
+END
+Fx.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/Fx.js
+END
+DomHelper.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/DomHelper.js
+END
+Ext.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/Ext.js
+END
+Element.insertion.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/2081/ext/3.2.0/src/ext-core/src/core/Element.insertion.js
+END

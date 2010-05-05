@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/!svn/ver/2081/ext/3.2.0/src/state
+END
+CookieProvider.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2081/ext/3.2.0/src/state/CookieProvider.js
+END
+Provider.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2081/ext/3.2.0/src/state/Provider.js
+END
+StateManager.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2081/ext/3.2.0/src/state/StateManager.js
+END

@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/2081/ext/3.2.0/src/widgets
+END
+DataView.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/2081/ext/3.2.0/src/widgets/DataView.js
+END
+PanelDD.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/2081/ext/3.2.0/src/widgets/PanelDD.js
+END
+Window.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2081/ext/3.2.0/src/widgets/Window.js
+END
+ComponentMgr.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2081/ext/3.2.0/src/widgets/ComponentMgr.js
+END
+DatePicker.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2081/ext/3.2.0/src/widgets/DatePicker.js
+END
+Button.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2081/ext/3.2.0/src/widgets/Button.js
+END
+BoxComponent.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2081/ext/3.2.0/src/widgets/BoxComponent.js
+END
+Layer.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/2081/ext/3.2.0/src/widgets/Layer.js
+END
+Action.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2081/ext/3.2.0/src/widgets/Action.js
+END
+Viewport.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/2081/ext/3.2.0/src/widgets/Viewport.js
+END
+Resizable.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/2081/ext/3.2.0/src/widgets/Resizable.js
+END
+SplitBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/2081/ext/3.2.0/src/widgets/SplitBar.js
+END
+Slider.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2081/ext/3.2.0/src/widgets/Slider.js
+END
+Container.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/2081/ext/3.2.0/src/widgets/Container.js
+END
+Shadow.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2081/ext/3.2.0/src/widgets/Shadow.js
+END
+TabPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/2081/ext/3.2.0/src/widgets/TabPanel.js
+END
+Editor.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2081/ext/3.2.0/src/widgets/Editor.js
+END
+SplitButton.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2081/ext/3.2.0/src/widgets/SplitButton.js
+END
+ButtonGroup.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2081/ext/3.2.0/src/widgets/ButtonGroup.js
+END
+PagingToolbar.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/src/widgets/PagingToolbar.js
+END
+ProgressBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2081/ext/3.2.0/src/widgets/ProgressBar.js
+END
+CycleButton.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2081/ext/3.2.0/src/widgets/CycleButton.js
+END
+LoadMask.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/2081/ext/3.2.0/src/widgets/LoadMask.js
+END
+MessageBox.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2081/ext/3.2.0/src/widgets/MessageBox.js
+END
+ColorPalette.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2081/ext/3.2.0/src/widgets/ColorPalette.js
+END
+Panel.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/2081/ext/3.2.0/src/widgets/Panel.js
+END
+WindowManager.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/2081/ext/3.2.0/src/widgets/WindowManager.js
+END
+Toolbar.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/2081/ext/3.2.0/src/widgets/Toolbar.js
+END
+Component.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/2081/ext/3.2.0/src/widgets/Component.js
+END

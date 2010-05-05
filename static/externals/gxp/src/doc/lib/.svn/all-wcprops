@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/gxp/!svn/ver/34/trunk/core/src/doc/lib
+END
+data.rst
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gxp/!svn/ver/34/trunk/core/src/doc/lib/data.rst
+END
+template.jst
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gxp/!svn/ver/32/trunk/core/src/doc/lib/template.jst
+END
+widgets.rst
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gxp/!svn/ver/34/trunk/core/src/doc/lib/widgets.rst
+END

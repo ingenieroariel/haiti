@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/CAPRA/!svn/ver/1024/GeoNode/trunk/src/geonode-client/src/script/app/GeoExplorer
+END
+BackgroundLayerManager.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/CAPRA/!svn/ver/826/GeoNode/trunk/src/geonode-client/src/script/app/GeoExplorer/BackgroundLayerManager.js
+END
+CapabilitiesRowExpander.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/CAPRA/!svn/ver/877/GeoNode/trunk/src/geonode-client/src/script/app/GeoExplorer/CapabilitiesRowExpander.js
+END
+CapabilitiesGrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/CAPRA/!svn/ver/902/GeoNode/trunk/src/geonode-client/src/script/app/GeoExplorer/CapabilitiesGrid.js
+END
+GoogleEarthPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/script/app/GeoExplorer/GoogleEarthPanel.js
+END
+NewSourceWindow.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/script/app/GeoExplorer/NewSourceWindow.js
+END
