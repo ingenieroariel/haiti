@@ -1,0 +1,29 @@
+{% extends "base.html" %} 
+
+{% block header_append %} 
+   <script src="/static/ol/OpenLayers.js"></script> 
+   <script src="/static/hazard.js"></script> 
+{% endblock %}
+
+{% block content %} 
+<div id="hazard-map"></div> 
+
+<ul class="tabs"> 
+  <li>
+    <a href="{% url hazard-index %}">Welcome</a>
+  </li> 
+  <li class="active">
+    <a href="{% url hazard-maps %}">Maps</a>
+  </li> 
+  <li><a href="{% url hazard-reports %}">Reports</a></li> 
+  <li><a href="{% url data-search %}">Data Search</a></li> 
+  <li class="search"> 
+    <form action="/search" method="POST">
+      <input type="text" name="query" /> 
+    </form>
+  </li>
+</ul>
+<div id="content"> 
+  <p>Maps are cool as well</p>
+</div>
+{% endblock %}

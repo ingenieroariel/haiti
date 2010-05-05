@@ -1,0 +1,16 @@
+{% extends "base.html" %} 
+{% block title %} MyHazard Haiti {% endblock %} 
+
+{% block header_append %} 
+   <script src="/static/ol/OpenLayers.js"></script> 
+   <script src="/static/hazard.js"></script> 
+{% endblock %}
+
+{% block wrapper %} 
+<div id="hazard-map"></div>
+{% block menu %} 
+{% endblock %} 
+<div id="content">
+  {% block content %} {% endblock %}
+</div>
+{% endblock %} 

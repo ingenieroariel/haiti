@@ -13,10 +13,15 @@ margin: 0px auto;
 
 div#content {  
 margin: 20px;
+overflow: auto; 
  }
 div#hazard-map {  
 background: #eee; 
 height: 450px;
+ }
+div#search-map {  
+background: #eee; 
+height: 200px;
  }
 p.intro {  
 width: 800px;
@@ -47,3 +52,4 @@ ul.tabs li.search {
 float: right; 
 margin-right: 15px;
  }
+ul.search {list-style:none;}

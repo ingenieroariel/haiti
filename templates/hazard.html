@@ -10,10 +10,14 @@
 <div id="hazard-map"></div>
 
 <ul class="tabs"> 
-  <li class="active"><a href="#">Welcome</a></li> 
-  <li><a href="#">Maps</a></li> 
-  <li><a href="#">Reports</a></li> 
-  <li><a href="#">Data</a></li> 
+  <li class="active">
+    <a href="{% url hazard-index %}">Welcome</a>
+  </li> 
+  <li>
+    <a href="{% url hazard-maps %}">Maps</a>
+  </li> 
+  <li><a href="{% url hazard-reports %}">Reports</a></li> 
+  <li><a href="{% url data-search %}">Data Search</a></li> 
   <li class="search"> 
     <form action="/search" method="POST">
       <input type="text" name="query" /> 
