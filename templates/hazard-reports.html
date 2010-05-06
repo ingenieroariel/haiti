@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block content %} 
-<div id="hazard-map"> </div> 
+<div class="short-map" id="map"> </div> 
 
 <ul class="tabs"> 
   <li>
@@ -18,7 +18,7 @@
   <li class="active"><a href="{% url hazard-reports %}">Reports</a></li> 
   <li><a href="{% url data-search %}">Data Search</a></li> 
   <li class="search"> 
-    <form action="/search" method="POST">
+    <form action="{% url data-search %}" method="POST">
       <input type="text" name="query" /> 
     </form>
   </li>

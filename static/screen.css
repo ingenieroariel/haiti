@@ -13,15 +13,14 @@ margin: 0px auto;
 
 div#content {  
 margin: 20px;
-overflow: auto; 
  }
-div#hazard-map {  
+div.tall-map {  
 background: #eee; 
 height: 450px;
  }
-div#search-map {  
+div.short-map {  
 background: #eee; 
-height: 200px;
+height: 250px;
  }
 p.intro {  
 width: 800px;
@@ -53,3 +52,8 @@ float: right;
 margin-right: 15px;
  }
 ul.search {list-style:none;}
+
+
+div.table {border: 1px dashed #808080;   }
+div#left { float: left; width: 74%; }
+div#right {float: right; width: 24%; }

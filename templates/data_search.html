@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block content %} 
-<div id="search-map"></div>
+<div class="short-map" id="map"></div>
 
 <ul class="tabs"> 
   <li>
@@ -19,19 +19,31 @@
   <li><a href="{% url hazard-reports %}">Reports</a></li> 
   <li class="active"><a href="{% url data-search %}">Data Search</a></li> 
   <li class="search"> 
-    <form action="/search" method="POST">
+    <form action="{% url data-search %}" method="GET">
       <input type="text" name="query" /> 
     </form>
   </li>
 </ul>
-
 <div id="content">
-  <h4>Search results for...</h4> 
-  <form method="POST" action="."> 
-    <input type="text" name="query" />
-    <input type="submit" vale="Search" />
-  </form>
-  <hr />
+<div class="wrapper">
+  <div id="left">
+      <h4>Search results for...</h4> 
+      <form method="GET" action="."> 
+        <input type="text" name="query" value="{{query}}"/>
+        <input type="submit" vale="Search" />
+      </form>
+      <hr />
+      <p>Search results go here</p>
+  </div>
+  <div id="right">
+    <p>Search for</p> 
+    <ul> 
+      <li><a href="?query=all">All (300)</a></li>
+      <li><a href="?query=hazard-data">Hazard Data</a></li>
+      <li><a href="?query=damage-data">Damage Data</a></li>
+      <li><a href="?query=reference-data">Reference Data</a></li>
+      <li><a href="?query=maps">Maps</a></li>
+    </ul>
+  </div>
 </div>
-
 {% endblock %} 

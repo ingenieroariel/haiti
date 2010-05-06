@@ -3,10 +3,58 @@
 {% block header_append %} 
    <script src="/static/ol/OpenLayers.js"></script> 
    <script src="/static/hazard.js"></script> 
+
+   <link rel="stylesheet" type="text/css" href="/static/externals/ext/resources/css/ext-all.css" /> 
+   <script type="text/javascript" src="/static/externals/ext/adapter/ext/ext-base.js"></script> 
+   <script type="text/javascript" src="/static/externals/ext/ext-all-debug.js"></script> 
+
+    <script src="/static/build/geonode-client/gn/ux.js"></script> 
+    <script src="/static/build/geonode-client/geonode-client/gn/GeoNode.js"></script> 
+
+   <script type="text/javascript"> 
+    Ext.onReady(function(){ 
+     var pdfs = [["PDF One","Title"],["PDF Two", "Title Two"]];
+
+     var pdf_store = new Ext.data.ArrayStore({
+          fields: [
+                {name: 'name'},
+                {name: 'title', type: 'string'}
+                  ]
+            });
+     pdf_store.loadData(pdfs);
+
+     var expander = new Ext.grid.RowExpander({
+         tpl : new Ext.Template(
+             '<p><b>Company:</b>{name}<br>'
+         )
+     });
+
+     var grid = new Ext.grid.GridPanel({
+         store: pdf_store,
+         columns: [
+             {id:'name',header: 'Name', sortable: true, dataIndex: 'name'},
+             {header: 'Title',sortable: true, renderer: 'title', dataIndex: 'title'},
+                 ],
+        viewConfig: {
+            forceFit:true
+        },
+        stripeRows: true,
+        expander: expander,
+        autoExpandColumn: 'name',
+        height: 350,
+        stateful: true,
+        stateId: 'grid' 
+    });
+     grid.render('pdf-grid'); 
+     }); 
+   </script>
+
 {% endblock %}
 
 {% block content %} 
-<div id="hazard-map"></div> 
+<div class="short-map" id="map">
+
+</div> 
 
 <ul class="tabs"> 
   <li>
@@ -18,12 +66,15 @@
   <li><a href="{% url hazard-reports %}">Reports</a></li> 
   <li><a href="{% url data-search %}">Data Search</a></li> 
   <li class="search"> 
-    <form action="/search" method="POST">
+    <form action="{% url data-search %}" method="GET">
       <input type="text" name="query" /> 
     </form>
   </li>
 </ul>
 <div id="content"> 
-  <p>Maps are cool as well</p>
+  <h3>Print ready maps</h3>
+
+    <div id="pdf-grid"> </div>
+
 </div>
 {% endblock %}
