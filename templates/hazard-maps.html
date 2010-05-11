@@ -2,52 +2,22 @@
 
 {% block header_append %} 
    <script src="/static/ol/OpenLayers.js"></script> 
-   <script src="/static/hazard.js"></script> 
 
    <link rel="stylesheet" type="text/css" href="/static/externals/ext/resources/css/ext-all.css" /> 
    <script type="text/javascript" src="/static/externals/ext/adapter/ext/ext-base.js"></script> 
    <script type="text/javascript" src="/static/externals/ext/ext-all-debug.js"></script> 
 
+   <link rel="stylesheet" type="text/css" href="/static/externals/geoext/resources/css/geoext-all-debug.css" />
+   <script src="/static/externals/geoext/lib/GeoExt.js"></script> 
+   <script src="/static/externals/gxp/src/script/loader.js"></script> 
+
+
     <script src="/static/build/geonode-client/gn/ux.js"></script> 
     <script src="/static/build/geonode-client/geonode-client/gn/GeoNode.js"></script> 
-
-   <script type="text/javascript"> 
-    Ext.onReady(function(){ 
-     var pdfs = [["PDF One","Title"],["PDF Two", "Title Two"]];
-
-     var pdf_store = new Ext.data.ArrayStore({
-          fields: [
-                {name: 'name'},
-                {name: 'title', type: 'string'}
-                  ]
-            });
-     pdf_store.loadData(pdfs);
-
-     var expander = new Ext.grid.RowExpander({
-         tpl : new Ext.Template(
-             '<p><b>Company:</b>{name}<br>'
-         )
-     });
-
-     var grid = new Ext.grid.GridPanel({
-         store: pdf_store,
-         columns: [
-             {id:'name',header: 'Name', sortable: true, dataIndex: 'name'},
-             {header: 'Title',sortable: true, renderer: 'title', dataIndex: 'title'},
-                 ],
-        viewConfig: {
-            forceFit:true
-        },
-        stripeRows: true,
-        expander: expander,
-        autoExpandColumn: 'name',
-        height: 350,
-        stateful: true,
-        stateId: 'grid' 
-    });
-     grid.render('pdf-grid'); 
-     }); 
-   </script>
+    <script src="/static/hazard.js"></script> 
+    <script type="text/javascript"> 
+      printMaps(); 
+    </script>
 
 {% endblock %}
 

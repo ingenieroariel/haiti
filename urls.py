@@ -18,6 +18,7 @@ urlpatterns += patterns('',
 urlpatterns += patterns('haiti.myhazard.views',
     url(r'^hazard/$','index',name='hazard-index'),
     url(r'^hazard/maps/$','maps',name='hazard-maps'),
+    url(r'^hazard/maps.json$','maps_json',name='hazard-maps-json'),
     url(r'^hazard/reports/$','reports',name='hazard-reports'),
 )
 
