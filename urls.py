@@ -2,6 +2,11 @@ from django.conf.urls.defaults import *
 import geonode 
 from haiti import views
 
+
+
+from django.contrib import admin
+admin.autodiscover()
+
 urlpatterns = patterns('',
     url(r'^$',views.haiti_index,name="site-index"),
     url(r'^data/search/$',views.data_search,name="data-search"),
@@ -12,6 +17,8 @@ urlpatterns = patterns('',
 
 urlpatterns += patterns('',
     (r'^geonode/', include('geonode.urls')),
+    (r'^admin/', include(admin.site.urls)),
+
 )
 
 
