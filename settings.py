@@ -85,6 +85,8 @@ INSTALLED_APPS = (
 	'geonode.maps',
 	'geonode.proxy',
 	'haiti.myhazard',
+	'haiti.damage',
+
 )
 GOOGLE_API_KEY = "ABQIAAAAkofooZxTfcCv9Wi3zzGTVxTnme5EwnLVtEDGnh-lFVzRJhbdQhQgAhB1eT_2muZtc0dl-ZSWrtzmrw"
 MAP_BASELAYERS = [{
