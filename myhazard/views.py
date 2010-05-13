@@ -1,7 +1,7 @@
 from django.shortcuts import render_to_response
 from django.http import HttpResponse
 from simplejson import dumps
-
+from haiti.damage.models import DamageMap
 
 
 def index(request): 
@@ -20,15 +20,8 @@ def data(request):
 def maps_json(request):
     return HttpResponse(
         dumps({"type": "FeatureCollection",
-               "features" : [
-                    {"type": "Feature",
-                     "geometry" : { "type" : "Point", "coordinates" :  [-8051914,2104311]}, 
-                     "properties": {"name": "PDF One" }},
-                    {"type": "Feature",
-                     "geometry" : { "type" : "Point", "coordinates" :  [-8041914,2104311]}, 
-                     "properties": {"name": "PDF Two" }},
-                    {"type": "Feature",
-                     "geometry" : { "type" : "Point", "coordinates" :  [-8031914,2104311]}, 
-                     "properties": {"name": "PDF Three" }}
-                    ]
+               "features" : [ {"type": "Feature", 
+                               "geometry": { "type": "Point", "coordinates": 
+                                             [x.polygon.x, x.polygon.y]}}
+                              for x in DamageMap.objects.all()]
                }),mimetype="application/json")
