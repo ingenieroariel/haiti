@@ -39,6 +39,7 @@ function printMaps() {
         layer: pdfs,
         fields: [
             {name: 'name', type: 'string'},
+            {description: 'description', type: 'string' }
         ],
         proxy: new GeoExt.data.ProtocolProxy({
           protocol: new OpenLayers.Protocol.HTTP({
@@ -53,9 +54,13 @@ function printMaps() {
         store: store,
        height: 400,
         columns: [{
-            header: "Name",
-            dataIndex: "name"
-        }],
+          header: "Name",
+          dataIndex: "name"
+        },
+         {header: "Description",
+          dataIndex: "description"
+          }
+                 ],
         sm: new GeoExt.grid.FeatureSelectionModel() 
     });
 

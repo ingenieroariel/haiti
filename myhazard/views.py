@@ -22,6 +22,9 @@ def maps_json(request):
         dumps({"type": "FeatureCollection",
                "features" : [ {"type": "Feature", 
                                "geometry": { "type": "Point", "coordinates": 
-                                             [x.polygon.x, x.polygon.y]}}
+                                             [x.polygon.x, x.polygon.y]},
+                              "properties" : {"name" : x.title,
+                                              "description" : x.description}
+                               }                              
                               for x in DamageMap.objects.all()]
                }),mimetype="application/json")
