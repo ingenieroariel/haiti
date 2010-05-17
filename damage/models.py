@@ -12,5 +12,5 @@ class DamageMap(models.Model):
     glide = models.CharField(max_length=200)
     pubdate = models.CharField(max_length=200)
     description = models.CharField(max_length=10000)
-    polygon = models.PointField()
+    point = models.PointField()
     objects = models.GeoManager()

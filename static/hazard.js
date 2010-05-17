@@ -39,29 +39,53 @@ function printMaps() {
         layer: pdfs,
         fields: [
             {name: 'name', type: 'string'},
-            {description: 'description', type: 'string' }
+            {name: 'description', type: 'string' },
+            {name: 'category', type: 'string' },
+            {name: 'guid', type: 'string' },
+            {name: 'pubdate', type: 'string' },
         ],
         proxy: new GeoExt.data.ProtocolProxy({
           protocol: new OpenLayers.Protocol.HTTP({
                 url: "/hazard/maps.json",
-                format: new OpenLayers.Format.GeoJSON()
+                format: new OpenLayers.Format.GeoJSON({
+                 externalProjection: map.displayProjection
+                }
+                )
             })
         }),
         autoLoad: true
     });
+   var love = function() { 
+     alert("hi")
+   }
+
      gridPanel = new Ext.grid.GridPanel({
        renderTo: "pdf-grid",
         store: store,
-       height: 400,
+        height: 400,
         columns: [{
           header: "Name",
+          width: 250,
           dataIndex: "name"
-        },
-         {header: "Description",
+        },{
+          header: "Description",
+          width: 350,
           dataIndex: "description"
-          }
-                 ],
-        sm: new GeoExt.grid.FeatureSelectionModel() 
+        },{
+          header: "Category",
+          width: 250,
+          dataIndex: "category"
+        },{
+          header: "Guid",
+          dataIndex: "guid",
+          width: 100
+        },{
+          header: "Publish Date",
+          width: 100,
+          dataIndex: "pubdate"
+          }],
+       sm: new GeoExt.grid.FeatureSelectionModel({selectControl: love})
+        
     });
 
     });}

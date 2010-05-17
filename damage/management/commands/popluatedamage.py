@@ -21,8 +21,10 @@ class Damage:
             self.polygon = None
 
 def process_geom(point): 
-    point1 = point.split(" ")
-    return Point(float(point1[1]),float(point1[0]))
+    coords = point.split(" ")
+    point = Point(float(coords[1]),float(coords[0]))
+    import pdb; pdb.set_trace()
+    return point
                    
 class Command(BaseCommand):
     help = 'Update the GeoNode application with data from GeoServer'
@@ -56,5 +58,5 @@ class Command(BaseCommand):
                           category=damage.category,guid=damage.guid,
                           glide=damage.GLIDE,pubdate=damage.pubDate,
                           description=damage.description,
-                          polygon=process_geom(damage.point).wkt
+                          point=process_geom(damage.point).wkt
                           ).save()
