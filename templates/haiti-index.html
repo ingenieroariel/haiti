@@ -1,14 +1,26 @@
 {% extends "base.html" %} 
 
 {% block content %} 
-<div> 
-  <ol> 
+<div id="intro"> 
+  <ul> 
   <li>
     <a href="{% url hazard-index %}">MyHazard Haiti</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+    porttitor eros non nisl dictum aliquet. Vivamus a risus sed urna
+    fermentum ornare. Quisque risus justo, volutpat et condimentum
+    vel, viverra id tortor. Cras pretium congue diam, in venenatis
+    egestas. </p>
   </li> 
   <li>
     <a href="{% url damage-index %}">Haiti Data Dissemination Web Portals</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+    porttitor eros non nisl dictum aliquet. Vivamus a risus sed urna
+    fermentum ornare. Quisque risus justo, volutpat et condimentum
+    vel, viverra id tortor. Cras pretium congue diam, in venenatis
+    egestas.</p>
   </li> 
-</ol>
+  <li> 
+    <p>Supported by the <a href="#">World Bank</a> Developed by <a href="#">OpenGeo</a> Powered by <a href="#">GeoNode</a></p>
+</ul>
 </div>
 {% endblock %} 

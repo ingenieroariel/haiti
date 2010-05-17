@@ -12,6 +12,16 @@
     </head>
     <body> 
       <div id="container">
+        <!--
+        <ul class="switcher"> 
+          <li><a href="#">My Hazard Haiti</a></li>
+          <li><a href="#">Damage</a></li> 
+        </ul>
+        -->
+        <div id="info-dialog">
+          {% block info %} 
+          {% endblock %}
+        </div>
       {% block content %} 
       {% endblock %} 
       </div>
