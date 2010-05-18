@@ -72,7 +72,7 @@ DEFAULT_MAP_ZOOM = 7
 ROOT_URLCONF = 'haiti.urls'
 
 TEMPLATE_DIRS = ( 
-    "/home/ivan/Work/Haiti/haiti/templates"
+    "/home/ivan/dev/Haiti/haiti/templates"
 )
 
 INSTALLED_APPS = (
@@ -81,9 +81,9 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
-	'geonode.core',
-	'geonode.maps',
-	'geonode.proxy',
+#	'geonode.core',
+#	'geonode.maps',
+#	'geonode.proxy',
 	'haiti.myhazard',
 	'haiti.damage',
 

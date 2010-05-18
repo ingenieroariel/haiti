@@ -23,7 +23,6 @@ class Damage:
 def process_geom(point): 
     coords = point.split(" ")
     point = Point(float(coords[1]),float(coords[0]))
-    import pdb; pdb.set_trace()
     return point
                    
 class Command(BaseCommand):

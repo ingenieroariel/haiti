@@ -1,10 +1,20 @@
-{% extends "base.html" %} 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html> 
+    <head> 
+        <title> </title>
+        <link rel="stylesheet" href="/static/screen.css" type="text/css" media="screen" charset="utf-8">
+         <!--[if lte IE 6]>
+             <link rel="stylesheet" href="static/ie6.css" type="text/css" media="screen" charset="utf-8">
+             <![endif]-->
 
-{% block content %} 
+       
+    </head>         
+<body>
 <div id="intro"> 
   <ul> 
   <li>
-    <a href="{% url hazard-index %}">MyHazard Haiti</a>
+    <a href="/hazard/">MyHazard Haiti</a>
+
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
     porttitor eros non nisl dictum aliquet. Vivamus a risus sed urna
     fermentum ornare. Quisque risus justo, volutpat et condimentum
@@ -12,7 +22,7 @@
     egestas. </p>
   </li> 
   <li>
-    <a href="{% url damage-index %}">Haiti Data Dissemination Web Portals</a>
+    <a href="/damage/">Haiti Data Dissemination Web Portals</a>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
     porttitor eros non nisl dictum aliquet. Vivamus a risus sed urna
     fermentum ornare. Quisque risus justo, volutpat et condimentum
@@ -21,6 +31,10 @@
   </li> 
   <li> 
     <p>Supported by the <a href="#">World Bank</a> Developed by <a href="#">OpenGeo</a> Powered by <a href="#">GeoNode</a></p>
+
 </ul>
 </div>
-{% endblock %} 
+ 
+      </div>
+    </body> 
+</html> 
