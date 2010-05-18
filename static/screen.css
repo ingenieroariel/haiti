@@ -45,9 +45,15 @@ ul.overview {
 font-size: 20px;
  }
 
+.damage { 
+background: #7f2b50;
+} 
+.hazard { 
+background: #2b5080;
+} 
 ul.tabs {
 padding-left: 15px;
-background: #2b5080;
+
  }
 ul.tabs li {  
 margin: 5px 5px 0; 
