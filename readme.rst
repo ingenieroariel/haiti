@@ -14,6 +14,7 @@ Python dependencies::
 
    $ easy_install django==1.1
    $ easy_install psycopg2
+   $ easy_install elementtree 
 
 Check out the code form github::
 

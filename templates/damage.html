@@ -1,0 +1,19 @@
+{% extends "base.html" %} 
+
+{% block info %} 
+<p>This portal collects information on damage</p>
+{% endblock %}
+
+{% block content %} 
+<div class="tall-map" id="map"></div>
+
+<ul class="tabs damage"> 
+  <li class="active">
+    <a href="{% url damage-index %}">Welcome</a>
+  </li>
+</ul>
+
+<div id="content">
+<p> Damage maps </p>
+</div>
+{% endblock %}
