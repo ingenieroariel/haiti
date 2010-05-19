@@ -72,8 +72,8 @@ DEFAULT_MAP_ZOOM = 7
 ROOT_URLCONF = 'haiti.urls'
 
 TEMPLATE_DIRS = ( 
-    "/home/ivan/Work/Haiti/haiti/templates"
-#    "/home/ivan/dev/Haiti/haiti/templates"
+    "/home/ivan/Work/Haiti/haiti/templates",
+    "/home/ivan/Work/Haiti/src/geonodepy/geonode/templates"
 )
 
 INSTALLED_APPS = (
@@ -82,11 +82,11 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
-#	'geonode.core',
-#	'geonode.maps',
-#	'geonode.proxy',
-	'haiti.myhazard',
-	'haiti.damage',
+    'geonode.core',
+    'geonode.maps',
+    'geonode.proxy',
+    'haiti.myhazard',
+    'haiti.damage',
 
 )
 GOOGLE_API_KEY = "ABQIAAAAkofooZxTfcCv9Wi3zzGTVxTnme5EwnLVtEDGnh-lFVzRJhbdQhQgAhB1eT_2muZtc0dl-ZSWrtzmrw"

@@ -1,5 +1,5 @@
 from django.conf.urls.defaults import *
-#import geonode 
+import geonode 
 from haiti import views
 
 
@@ -16,7 +16,7 @@ urlpatterns = patterns('',
 )
 
 urlpatterns += patterns('',
- #   (r'^geonode/', include('geonode.urls')),
+    (r'^geonode/', include('geonode.urls')),
     (r'^admin/', include(admin.site.urls)),
 
 )

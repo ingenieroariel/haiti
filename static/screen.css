@@ -80,3 +80,7 @@ ul.search {list-style:none;}
 div.table {border: 1px dashed #808080;   }
 div#left { float: left; width: 74%; }
 div#right {float: right; width: 24%; }
+
+#app-header { background: #7f2b50 !important;   }
+
+#banner { background: none !important;  }

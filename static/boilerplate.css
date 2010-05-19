@@ -43,10 +43,12 @@ pre, code { margin: 20px 0; white-space: pre; }
 pre, code, tt { font: 10px monospace; line-height: 20px; } 
 tt { display: block; margin: 20px 0; line-height: 20px; }
 
-/* TABLES */
+/* TABLES
 table { margin-bottom: 20px; }
 th,td { padding: 5px 10px 5px 0; }
 td {vertical-align: top }
+*/
+
 
 /* -------------------------------------------------------------- 
    FORMS

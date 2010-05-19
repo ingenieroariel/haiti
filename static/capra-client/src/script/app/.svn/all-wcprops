@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/CAPRA/!svn/ver/1027/GeoNode/trunk/src/capra-client/src/script/app
+END
+loader.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/CAPRA/!svn/ver/877/GeoNode/trunk/src/capra-client/src/script/app/loader.js
+END
+AMEGrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/CAPRA/!svn/ver/979/GeoNode/trunk/src/capra-client/src/script/app/AMEGrid.js
+END
+DataGrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/CAPRA/!svn/ver/985/GeoNode/trunk/src/capra-client/src/script/app/DataGrid.js
+END
