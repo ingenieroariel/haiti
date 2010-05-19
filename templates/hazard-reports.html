@@ -2,7 +2,22 @@
 
 {% block header_append %} 
    <script src="/static/ol/OpenLayers.js"></script> 
-   <script src="/static/hazard.js"></script> 
+
+   <link rel="stylesheet" type="text/css" href="/static/externals/ext/resources/css/ext-all.css" /> 
+   <script type="text/javascript" src="/static/externals/ext/adapter/ext/ext-base.js"></script> 
+   <script type="text/javascript" src="/static/externals/ext/ext-all-debug.js"></script> 
+
+   <link rel="stylesheet" type="text/css" href="/static/externals/geoext/resources/css/geoext-all-debug.css" />
+   <script src="/static/externals/geoext/lib/GeoExt.js"></script> 
+   <script src="/static/externals/gxp/src/script/loader.js"></script> 
+
+
+    <script src="/static/build/geonode-client/gn/ux.js"></script> 
+    <script src="/static/build/geonode-client/geonode-client/gn/GeoNode.js"></script> 
+    <script src="/static/hazard.js"></script> 
+    <script type="text/javascript"> 
+      loadMap('map'); 
+    </script>
 {% endblock %}
 
 {% block content %} 
@@ -26,6 +41,5 @@
 <div id="content"> 
   <h3>Static and Dynamic reports</h3>  
   <hr />
-
 </div>
 {% endblock %}

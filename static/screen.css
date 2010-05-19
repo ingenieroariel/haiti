@@ -16,12 +16,13 @@ background: #333; margin: 10px;opacity: .8;color: #fff;
 
 #intro {  
 margin: 20px auto; 
-width: 500px; 
+width: 600px; 
 background: #2B5080;
 padding: 10px; 
  }
 #intro li {  list-style: none;  }
 #intro a {color: #fff;font-weight: bold;}
+#intro h1 {color: #fff; }
 #intro p { color: #fff; }
 
 div#container {  
