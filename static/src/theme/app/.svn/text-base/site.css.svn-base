@@ -315,27 +315,73 @@ a.download {
   padding-left: 18px;
   padding-top: 2px;
   padding-bottom:2px;
+  background-image: url(img/silk/page_white.png)
 }
 
 a.download.pdf{ 
   background-image: url(img/silk/page_white_acrobat.png)
 }
 
-a.download.kml{ 
+a.download.kml, 
+a.download.kmz { 
   background-image: url(img/geosilk/kml.png)
 }
 
-a.download.geotiff{ 
+a.download.geotiff,
+a.download.tiff,
+a.download.png { 
   background-image: url(img/geosilk/page_white_raster.png)
 }
 
-a.download.shp{ 
+a.download.shp,
+a.download.zip { 
   background-image: url(img/geosilk/page_white_vector.png)
 }
 
-a.download.ame{
-    background-image: url(img/silk/page_white.png)
+a.permalink { 
+  text-decoration: none;  
+  background-repeat:no-repeat;
+  padding-left: 18px;
+  background-image: url(img/silk/link.png);
 }
+
+
+#data_ops ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+#data_ops a {
+    text-decoration: none;
+}
+
+#data_ops a.create-map {
+    background-repeat:no-repeat;
+    padding-left: 25px;
+    padding-top: 2px;
+    padding-bottom:2px;
+    background-image: url(img/silk/map_add.png);
+    font-weight: bold;
+}
+
+#data_ops span.export {
+    background-repeat:no-repeat;
+    padding-left: 25px;
+    padding-top: 2px;
+    padding-bottom:2px;
+    background-image: url(img/geosilk/map_save.png);
+    font-weight: bold;
+}
+
+.bbox-controls .bbox-enabled {
+    font-weight: bold;
+}
+
+.bbox-controls .explain {
+    font-size: 90%;
+    color: #afafaf;
+}
+
 
 .olControlAttribution{ 
 color:gray;

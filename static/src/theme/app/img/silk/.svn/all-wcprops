@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 75
-/CAPRA/!svn/ver/926/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk
+V 76
+/CAPRA/!svn/ver/1145/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk
 END
 shape_square_delete.png
 K 25
@@ -93,11 +93,11 @@ svn:wc:ra_dav:version-url
 V 98
 /CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/magnifier_zoom_out.png
 END
-layers.png
+link.png
 K 25
 svn:wc:ra_dav:version-url
-V 86
-/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/layers.png
+V 85
+/CAPRA/!svn/ver/1145/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/link.png
 END
 map_delete.png
 K 25
@@ -105,23 +105,29 @@ svn:wc:ra_dav:version-url
 V 90
 /CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/map_delete.png
 END
+layers.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/layers.png
+END
 magnifier.png
 K 25
 svn:wc:ra_dav:version-url
 V 89
 /CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/magnifier.png
 END
-delete.png
-K 25
-svn:wc:ra_dav:version-url
-V 86
-/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/delete.png
-END
 map_go.png
 K 25
 svn:wc:ra_dav:version-url
 V 86
 /CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/map_go.png
+END
+delete.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/delete.png
 END
 feed.png
 K 25
@@ -141,11 +147,11 @@ svn:wc:ra_dav:version-url
 V 89
 /CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/arrow_out.png
 END
-shape_square_edit.png
+map_add.png
 K 25
 svn:wc:ra_dav:version-url
-V 97
-/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/shape_square_edit.png
+V 87
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/map_add.png
 END
 information.png
 K 25
@@ -153,17 +159,11 @@ svn:wc:ra_dav:version-url
 V 91
 /CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/information.png
 END
-map_add.png
+shape_square_edit.png
 K 25
 svn:wc:ra_dav:version-url
-V 87
-/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/map_add.png
-END
-world.png
-K 25
-svn:wc:ra_dav:version-url
-V 85
-/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/world.png
+V 97
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/shape_square_edit.png
 END
 arrow_right.png
 K 25
@@ -171,17 +171,23 @@ svn:wc:ra_dav:version-url
 V 91
 /CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/arrow_right.png
 END
-shape_square_add.png
+world.png
 K 25
 svn:wc:ra_dav:version-url
-V 96
-/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/shape_square_add.png
+V 85
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/world.png
 END
 readme.txt
 K 25
 svn:wc:ra_dav:version-url
 V 86
 /CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/readme.txt
+END
+shape_square_add.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/silk/shape_square_add.png
 END
 magnifier_zoom_in.png
 K 25

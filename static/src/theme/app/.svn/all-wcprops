@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/CAPRA/!svn/ver/1027/GeoNode/trunk/src/geonode-client/src/theme/app
+/CAPRA/!svn/ver/1145/GeoNode/trunk/src/geonode-client/src/theme/app
 END
 about.css
 K 25
@@ -25,5 +25,5 @@ site.css
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/CAPRA/!svn/ver/1010/GeoNode/trunk/src/geonode-client/src/theme/app/site.css
+/CAPRA/!svn/ver/1145/GeoNode/trunk/src/geonode-client/src/theme/app/site.css
 END

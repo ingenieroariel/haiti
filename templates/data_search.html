@@ -3,6 +3,41 @@
 
 
 {% block header_append %}
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+        <link rel="shortcut icon" href="/static/src/theme/app/img/favicon.ico"/>
+
+        <!-- Ext resources -->
+        <link rel="stylesheet" type="text/css" href="/static/externals/ext/resources/css/ext-all.css" />
+        <script type="text/javascript" src="/static/externals/ext/adapter/ext/ext-base.js"></script>
+        <script type="text/javascript" src="/static/externals/ext/ext-all-debug.js"></script>
+
+        <!-- OpenLayers resources -->
+        <link rel="stylesheet" type="text/css" href="/static/externals/openlayers/theme/default/style.css" />
+        <script src="/static/externals/openlayers/lib/OpenLayers.js"></script>
+
+        <!-- GeoExt resources -->
+        <link rel="stylesheet" type="text/css" href="/static/externals/geoext/resources/css/geoext-all-debug.css" />
+        <script src="/static/externals/geoext/lib/GeoExt.js"></script> 
+        <script src="/static/externals/gxp/src/script/loader.js"></script> 
+
+        <!-- GeoExplorer resources -->
+        <link rel="stylesheet" type="text/css" href="/static/src/theme/app/geoexplorer.css" />
+        <!--[if IE]><link rel="stylesheet" type="text/css" href="/static/src/theme/app/ie.css"/><![endif]-->
+        <script src="/static/src/script/ux/loader.js"></script> 
+        <script src="/static/src/script/app/loader.js"></script> 
+
+        <!--
+        <link rel="stylesheet" type="text/css" href="/static/src/theme/app/site.css" />
+        -->
+        <script type="text/javascript" src="/jsi18n/"></script>
+
+
+        <script type="text/javascript">
+            Ext.BLANK_IMAGE_URL = "/static/externals/ext/resources/images/default/s.gif";
+        </script>
+                
+
 <script type="text/javascript">
 Ext.onReady(function(){
    {% autoescape off %}
@@ -60,31 +95,58 @@ Ext.onReady(function(){
 <div id="content">
 
   <div class="wrapper">
-    <h3>
-      Data Search Results
-    </h3>
-
-    <div id="layer_data"></div>
-    
-    <br/>
-    <div>
-      <h3>Selected Data</h3>
-      <p>
-      Use the checkboxes in the search results to
-      add data to the selection below.
-      </p>
-  
-      <div id="data_cart"></div>
-    </div>
-
-    <div id="data_ops">
-      <ul>
-        
+    <div id="main">  
+      <h3>Data Search Results</h3>
+      
+      <div id="layer_data"></div>
+      
+      <br/>
+      <div>
+        <h3>Selected Data</h3>
+        <p>Use the checkboxes in the search results to add data to the selection below.</p>
+        <div id="data_cart"></div>
+      </div>
+      
+      <div id="data_ops">
+        <ul>
+          <li><a href="#" class="create-map">Create a new map</a></li>
+        </li>
       </ul>
+      
+      <form id="create_map_form" action="/maps/new" method="POST">
       </form>
+      
     </div>
     <br/>
-
+  </div>
+  <div id="sidebar"> 
+    <div class="bbox-map"></div>
+    <br/>
+    <h3>Refine Search</h3>
+    <div class="bbox-controls">
+      <div class="bbox-enabled"><input type="checkbox" /> By area</div>
+      <span class="explain">Create a boundary on the map above to limit the search to data that includes features in a specified area.</span>
+      
+      <div class="bbox-buttons"></div>
+    </div>
+    <br/>
+    <div class="search-button"></div>
+    
+    <p></p>
+    
+    
+    <h3>Add Data</h3>
+    <p>Click here to <a href="/data/upload">upload a new layer</a></p>
+    
+    
+    <h3>For Developers</h3>
+    
+    
+    If you are interested in information about accessing this information through OGC services, click 
+    
+    <a href="/developer">here</a>.
+  </div>
+</div>
   </div>
 
 </div>

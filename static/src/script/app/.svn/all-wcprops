@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/CAPRA/!svn/ver/1145/GeoNode/trunk/src/geonode-client/src/script/app
+END
+loader.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/CAPRA/!svn/ver/1142/GeoNode/trunk/src/geonode-client/src/script/app/loader.js
+END
+GeoExplorer.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CAPRA/!svn/ver/1144/GeoNode/trunk/src/geonode-client/src/script/app/GeoExplorer.js
+END
+Embed.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/CAPRA/!svn/ver/942/GeoNode/trunk/src/geonode-client/src/script/app/Embed.js
+END
+LayerPreview.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CAPRA/!svn/ver/903/GeoNode/trunk/src/geonode-client/src/script/app/LayerPreview.js
+END
+Lang.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/script/app/Lang.js
+END
+ExportWizard.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CAPRA/!svn/ver/833/GeoNode/trunk/src/geonode-client/src/script/app/ExportWizard.js
+END
+MapGrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/CAPRA/!svn/ver/908/GeoNode/trunk/src/geonode-client/src/script/app/MapGrid.js
+END

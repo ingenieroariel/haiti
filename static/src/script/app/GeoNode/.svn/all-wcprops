@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
-V 75
-/CAPRA/!svn/ver/877/GeoNode/trunk/src/geonode-client/src/script/app/GeoNode
+V 76
+/CAPRA/!svn/ver/1145/GeoNode/trunk/src/geonode-client/src/script/app/GeoNode
+END
+SearchTable.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/CAPRA/!svn/ver/1145/GeoNode/trunk/src/geonode-client/src/script/app/GeoNode/SearchTable.js
 END
 DataGrid.js
 K 25

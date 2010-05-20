@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 70
-/CAPRA/!svn/ver/926/GeoNode/trunk/src/geonode-client/src/theme/app/img
+V 71
+/CAPRA/!svn/ver/1145/GeoNode/trunk/src/geonode-client/src/theme/app/img
 END
 mainnav-sep.gif
 K 25
@@ -21,17 +21,11 @@ svn:wc:ra_dav:version-url
 V 82
 /CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/spanish.jpg
 END
-menu.png
+geo_node_banner_repeat.png
 K 25
 svn:wc:ra_dav:version-url
-V 79
-/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/menu.png
-END
-geo_node_banner.png
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/geo_node_banner.png
+V 97
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/geo_node_banner_repeat.png
 END
 geo_node_banner_modified.png
 K 25
@@ -39,11 +33,17 @@ svn:wc:ra_dav:version-url
 V 99
 /CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/geo_node_banner_modified.png
 END
-geo_node_banner_repeat.png
+geo_node_banner.png
 K 25
 svn:wc:ra_dav:version-url
-V 97
-/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/geo_node_banner_repeat.png
+V 90
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/geo_node_banner.png
+END
+menu.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/menu.png
 END
 tab_background.png
 K 25
@@ -69,17 +69,17 @@ svn:wc:ra_dav:version-url
 V 81
 /CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/inicio.png
 END
-GeoExt_Logo.png
-K 25
-svn:wc:ra_dav:version-url
-V 86
-/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/GeoExt_Logo.png
-END
 favicon.ico
 K 25
 svn:wc:ra_dav:version-url
 V 82
 /CAPRA/!svn/ver/857/GeoNode/trunk/src/geonode-client/src/theme/app/img/favicon.ico
+END
+GeoExt_Logo.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CAPRA/!svn/ver/408/GeoNode/trunk/src/geonode-client/src/theme/app/img/GeoExt_Logo.png
 END
 geoexplorer.gif
 K 25

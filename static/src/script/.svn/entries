@@ -2,7 +2,7 @@
 
 dir
 1146
-http://svn.opengeo.org/CAPRA/GeoNode/trunk/src/geonode-client/src/theme
+http://svn.opengeo.org/CAPRA/GeoNode/trunk/src/geonode-client/src/script
 http://svn.opengeo.org/CAPRA
 
 
@@ -27,5 +27,8 @@ ltucker
 125c47a5-210e-49ec-a0c6-83efc728e0a1
 
 app
+dir
+
+ux
 dir
 
