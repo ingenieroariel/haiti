@@ -1,10 +1,43 @@
 {% extends "base.html" %} 
 {% block title %} MyHazard Haiti {% endblock %} 
 
-{% block header_append %} 
-   <script src="/static/ol/OpenLayers.js"></script> 
-   <script src="/static/hazard.js"></script> 
+
+{% block header_append %}
+<script type="text/javascript">
+Ext.onReady(function(){
+   {% autoescape off %}
+
+    var bbox = new GeoNode.BoundingBoxWidget({
+         proxy: "/proxy/?url=",
+         background: {{ background }},
+         renderTo: 'sidebar',
+    });
+
+    var searchTable = new GeoNode.SearchTable({
+        renderTo: 'layer_data',
+        trackSelection: true,
+        searchURL: '{% url geonode.maps.views.metadata_search %}',
+        constraints: [bbox],
+        searchParams: {{init_search}}
+    });
+    searchTable.hookupSearchButtons('sidebar');
+    
+    var dataCart = new GeoNode.DataCart({
+      store: searchTable.dataCart,
+      renderTo: 'data_cart'
+    });
+    
+    var dataOps = new GeoNode.DataCartOps({
+      cart: dataCart,
+      renderTo: 'data_ops'
+    });
+    
+    
+    {% endautoescape %}
+});
+</script>
 {% endblock %}
+
 
 {% block content %} 
 <div class="short-map" id="map"></div>
@@ -25,25 +58,34 @@
   </li>
 </ul>
 <div id="content">
-<div class="wrapper">
-  <div id="left">
-      <h4>Search results for...</h4> 
-      <form method="GET" action="."> 
-        <input type="text" name="query" value="{{query}}"/>
-        <input type="submit" vale="Search" />
+
+  <div class="wrapper">
+    <h3>
+      Data Search Results
+    </h3>
+
+    <div id="layer_data"></div>
+    
+    <br/>
+    <div>
+      <h3>Selected Data</h3>
+      <p>
+      Use the checkboxes in the search results to
+      add data to the selection below.
+      </p>
+  
+      <div id="data_cart"></div>
+    </div>
+
+    <div id="data_ops">
+      <ul>
+        
+      </ul>
       </form>
-      <hr />
-      <p>Search results go here</p>
+    </div>
+    <br/>
+
   </div>
-  <div id="right">
-    <p>Search for</p> 
-    <ul> 
-      <li><a href="?query=all">All (300)</a></li>
-      <li><a href="?query=hazard-data">Hazard Data</a></li>
-      <li><a href="?query=damage-data">Damage Data</a></li>
-      <li><a href="?query=reference-data">Reference Data</a></li>
-      <li><a href="?query=maps">Maps</a></li>
-    </ul>
-  </div>
+
 </div>
 {% endblock %} 
