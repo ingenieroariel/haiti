@@ -9,7 +9,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$',views.haiti_index,name="site-index"),
-    url(r'^data/search/$',views.data_search,name="data-search"),
+    url(r'^data/search/$',views.browse_data,name="data-search"),
 
     (r'^static/(?P<path>.*)$', 'django.views.static.serve', 
      {'document_root': "static"}),

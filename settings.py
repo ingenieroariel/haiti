@@ -21,6 +21,7 @@ DATABASE_PORT = ''
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
 TIME_ZONE = 'America/Chicago'
+SEARCH_WIDGET_BASELAYER_INDEX = 0
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -72,8 +73,14 @@ DEFAULT_MAP_ZOOM = 7
 ROOT_URLCONF = 'haiti.urls'
 
 TEMPLATE_DIRS = ( 
-    "/home/ivan/Work/Haiti/haiti/templates",
-    "/home/ivan/Work/Haiti/src/geonodepy/geonode/templates"
+
+#    "/home/ivan/Work/Haiti/haiti/templates",
+#    "/home/ivan/Work/Haiti/src/geonodepy/geonode/templates"
+
+    "/home/ivan/dev/Haiti/haiti/templates",
+    "/home/ivan/dev/Haiti/src/geonodepy/geonode/templates"
+
+
 )
 
 INSTALLED_APPS = (

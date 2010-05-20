@@ -33,3 +33,6 @@ def maps_json(request):
                                }                              
                               for x in DamageMap.objects.all()]
                }),mimetype="application/json")
+
+
+
