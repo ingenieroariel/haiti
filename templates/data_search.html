@@ -27,11 +27,8 @@
         <script src="/static/src/script/ux/loader.js"></script> 
         <script src="/static/src/script/app/loader.js"></script> 
 
-        <!--
-        <link rel="stylesheet" type="text/css" href="/static/src/theme/app/site.css" />
-        -->
-        <script type="text/javascript" src="/jsi18n/"></script>
 
+        <link rel="stylesheet" type="text/css" href="/static/src/theme/app/site.css" />
 
         <script type="text/javascript">
             Ext.BLANK_IMAGE_URL = "/static/externals/ext/resources/images/default/s.gif";
@@ -51,12 +48,14 @@ Ext.onReady(function(){
     var searchTable = new GeoNode.SearchTable({
         renderTo: 'layer_data',
         trackSelection: true,
-        searchURL: '{% url geonode.maps.views.metadata_search %}',
+        permalinkURL: '{% url data-search %}',        
+        searchURL: '{% url ajax-search %}',
         constraints: [bbox],
-        searchParams: {{init_search}}
+        searchParams: { }
     });
-    searchTable.hookupSearchButtons('sidebar');
-    
+   searchTable.hookupSearchButtons('sidebar');
+
+
     var dataCart = new GeoNode.DataCart({
       store: searchTable.dataCart,
       renderTo: 'data_cart'
@@ -66,7 +65,7 @@ Ext.onReady(function(){
       cart: dataCart,
       renderTo: 'data_ops'
     });
-    
+
     
     {% endautoescape %}
 });
@@ -125,26 +124,15 @@ Ext.onReady(function(){
     <h3>Refine Search</h3>
     <div class="bbox-controls">
       <div class="bbox-enabled"><input type="checkbox" /> By area</div>
-      <span class="explain">Create a boundary on the map above to limit the search to data that includes features in a specified area.</span>
-      
+      <span class="explain">Create a boundary on the map above to limit the search to data that includes features in a specified area.</span>      
       <div class="bbox-buttons"></div>
     </div>
     <br/>
     <div class="search-button"></div>
-    
-    <p></p>
-    
-    
     <h3>Add Data</h3>
-    <p>Click here to <a href="/data/upload">upload a new layer</a></p>
-    
-    
-    <h3>For Developers</h3>
-    
-    
-    If you are interested in information about accessing this information through OGC services, click 
-    
-    <a href="/developer">here</a>.
+    <p>Click here to <a href="/data/upload">upload a new layer</a></p>        
+    <h3>For Developers</h3>        
+    If you are interested in information about accessing this information through OGC services, click     
   </div>
 </div>
   </div>

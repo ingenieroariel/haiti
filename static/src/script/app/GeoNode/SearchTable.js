@@ -174,8 +174,7 @@ GeoNode.SearchTable = Ext.extend(Ext.util.Observable, {
         this.loadData();
     },
     
-    loadData: function() {
-    
+    loadData: function() {    
         this.searchStore = new Ext.data.JsonStore({
             url: this.searchURL,
             root: 'rows',
@@ -216,7 +215,9 @@ GeoNode.SearchTable = Ext.extend(Ext.util.Observable, {
         if (!this.searchParams.limit) {
             this.searchParams.limit = 10;
         }
-        
+        if (!this.searchParams.q) { 
+           this.searchParams.q = ""; 
+        }
         if (this.constraints) {
             for (var i = 0; i < this.constraints.length; i++) {
                 this.constraints[i].initFromQuery(this, this.searchParams);

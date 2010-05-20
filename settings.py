@@ -96,6 +96,9 @@ INSTALLED_APPS = (
     'haiti.damage',
 
 )
+GEONETWORK_BASE_URL = "http://localhost:8001/geonetwork/"
+GEONETWORK_CREDENTIALS = ("admin","admin")
+
 GOOGLE_API_KEY = "ABQIAAAAkofooZxTfcCv9Wi3zzGTVxTnme5EwnLVtEDGnh-lFVzRJhbdQhQgAhB1eT_2muZtc0dl-ZSWrtzmrw"
 MAP_BASELAYERS = [{
         'service': "wms",

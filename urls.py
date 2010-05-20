@@ -1,7 +1,8 @@
 from django.conf.urls.defaults import *
 import geonode 
+from geonode.proxy.views import proxy
 from haiti import views
-
+from geonode.maps.views import metadata_search
 
 
 from django.contrib import admin
@@ -9,7 +10,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$',views.haiti_index,name="site-index"),
-    url(r'^data/search/$',views.browse_data,name="data-search"),
+    url(r'^data/browse/$',views.browse_data,name="data-search"),
+    url(r'^data/search/$',metadata_search,name="ajax-search"),
 
     (r'^static/(?P<path>.*)$', 'django.views.static.serve', 
      {'document_root': "static"}),
@@ -17,6 +19,7 @@ urlpatterns = patterns('',
 
 urlpatterns += patterns('',
     (r'^geonode/', include('geonode.urls')),
+    (r'^proxy/',proxy),
     (r'^admin/', include(admin.site.urls)),
 
 )
