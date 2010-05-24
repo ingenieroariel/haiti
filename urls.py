@@ -24,6 +24,10 @@ urlpatterns += patterns('',
 
 )
 
+urlpatterns += patterns('haiti.report.views',
+    (r'^/report(.(?P<format>html|pdf))?', 'report'),
+)
+
 
 urlpatterns += patterns('haiti.myhazard.views',
     url(r'^hazard/$','index',name='hazard-index'),
