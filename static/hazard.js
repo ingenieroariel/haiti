@@ -1,12 +1,9 @@
 
 function loadMap(div) { 
-  Ext.onReady(function(){ 
     map = new OpenLayers.Map(div);
     layer = new OpenLayers.Layer.OSM("Simple OSM Map");
     map.addLayer(layer);
     map.setCenter(new OpenLayers.LonLat(-8051914,2104311),10)
-  })
-
 }
 
 var pdfs, map; 

@@ -29,8 +29,7 @@ div#container {
 margin: 0px auto;
  }
 div#content {  
-margin: 20px;
- }
+margin: 20px }
 div.tall-map {  
 background: #eee; 
 height: 450px;
@@ -76,6 +75,13 @@ margin-right: 15px;
  }
 ul.search {list-style:none;}
 
+ul#search-response li {
+ border-top: 1px solid #2b5080; 
+ margin-left: -20px; 
+ list-style:none;
+ padding: 10px;
+ background: #cbcfd4;
+} 
 
 div.table {border: 1px dashed #808080;   }
 div#left { float: left; width: 74%; }

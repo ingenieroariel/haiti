@@ -4,22 +4,40 @@
 
 {% block header_append %}
 <script type="text/javascript" src="/static/jquery.js"></script>
+<script src="/static/ol/OpenLayers.js"></script> 
+<script src="/static/hazard.js"></script> 
 
 <script type="text/javascript">
+    var search = "#search-response";
+    function clear_search(){ 
+        $(search).html("");
+    };
     function make_record(record) { 
-        return "<p><strong>"+ record.title +"</strong></p>";
+        title = "<li><p><strong>"+ record.title +"</strong></p>";
+        abstrct = "<p>" + record.abstract + "</p>";
+        tags = "<p><strong>Tagged: </strong>" + record.keywords + "</p></li>";
+        return title + abstrct + tags;
     } 
+    function iter_records(data) {
+        $("#count").html("<p>"+data.rows.length+"</p>");
+         for(var i = 0; i < data.rows.length; i++) { 
+             $(search).append(make_record(data.rows[i]));
+         };    
+    };     
 
  $(document).ready(function(){
+     loadMap("map");
      $.getJSON("/data/search/",function(data) { 
-         for(var i = 0; i < data.rows.length; i++) { 
-             $("#search-query").append(make_record(data.rows[i]));
-         };
+         iter_records(data);
      });              
-     $("#search").click(function(){          
-         $.getJSON("/data/search/",function(data) { 
-             console.log(data);
+     $("#search").click(function(){
+         var query = $("#query").val();
+         $.getJSON("/data/search/?q=" + query,function(data) { 
+             iter_records(data);
          }); 
+     });
+     $("#clear-searh").click(function(){ 
+         
      });
  });  
 </script>
@@ -48,10 +66,12 @@
 <div class="wrapper">
   <div id="left">
       <h4>Search results for...</h4> 
-        <input type="text" name="query" value="Hazard"/>
+        <input type="text" name="query" id="query" value="Hazard"/>
         <input type="submit" id="search" value="Search" />
-      <hr />
-      <div id="search-query"></div>
+      <div>
+        <div id="count"></div>
+        <ul id="search-response"></ul>
+      </div>
   </div>
   <div id="right">
     <p>Search for</p> 

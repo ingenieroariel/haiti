@@ -21,8 +21,11 @@
     <script src="/static/build/geonode-client/gn/ux.js"></script> 
     <script src="/static/build/geonode-client/geonode-client/gn/GeoNode.js"></script> 
     <script src="/static/hazard.js"></script> 
+    <script type="text/javascript" src="/static/jquery.js"></script>
     <script type="text/javascript"> 
-      loadMap('map'); 
+       $(document).ready(function(){
+          loadMap('map'); 
+       });
     </script>
 
 {% endblock %}

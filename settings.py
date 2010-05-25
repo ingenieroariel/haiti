@@ -74,17 +74,18 @@ ROOT_URLCONF = 'haiti.urls'
 
 TEMPLATE_DIRS = ( 
 
-    "/home/ivan/Work/Haiti/haiti/templates",
-    "/home/ivan/Work/Haiti/src/geonodepy/geonode/templates"
+#    "/home/ivan/Work/Haiti/haiti/templates",
+#    "/home/ivan/Work/Haiti/src/geonodepy/geonode/templates"
 
-#    "/home/ivan/dev/Haiti/haiti/templates",
-#    "/home/ivan/dev/Haiti/src/geonodepy/geonode/templates"
+    "/home/ivan/dev/Haiti/haiti/templates",
+    "/home/ivan/dev/Haiti/src/geonodepy/geonode/templates"
 
 
 )
 
 INSTALLED_APPS = (
     'django.contrib.auth',
+    'django.contrib.gis',
     'django.contrib.admin',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
