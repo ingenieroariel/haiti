@@ -5,47 +5,48 @@
 {% endblock %}
 
 {% block header_append %} 
+          
    <script src="/static/ol/OpenLayers.js"></script> 
-
+ 
    <link rel="stylesheet" type="text/css" href="/static/externals/ext/resources/css/ext-all.css" /> 
    <script type="text/javascript" src="/static/externals/ext/adapter/ext/ext-base.js"></script> 
    <script type="text/javascript" src="/static/externals/ext/ext-all-debug.js"></script> 
-
-   <link rel="stylesheet" type="text/css" href="/static/externals/geoext/resources/css/geoext-all-debug.css" />
+ 
+   <link rel="stylesheet" type="text/css" href="/static/externals/geoext/resources/css/geoext-all-debug.css" /> 
    <script src="/static/externals/geoext/lib/GeoExt.js"></script> 
    <script src="/static/externals/gxp/src/script/loader.js"></script> 
-
-
+ 
+ 
     <script src="/static/build/geonode-client/gn/ux.js"></script> 
     <script src="/static/build/geonode-client/geonode-client/gn/GeoNode.js"></script> 
     <script src="/static/hazard.js"></script> 
-    <script type="text/javascript" src="/static/jquery.js"></script>
     <script type="text/javascript"> 
-       $(document).ready(function(){
-          loadMap('map'); 
-       });
-    </script>
-
+      printMaps(); 
+    </script> 
+ 
 {% endblock %}
 
 
 {% block content %} 
-<div class="tall-map" id="map"></div>
+<div class="short-map" id="map"></div>
 
 <ul class="tabs damage"> 
-  <li class="active">
+  <li>
     <a href="{% url damage-index %}">Welcome</a>
   </li>
   <li> 
     <a href="{% url damage-reports %}">Damage Reports</a>
   </li>
-  <li> 
+  <li class="active"> 
     <a href="{% url damage-atlas %}">Damage Atlas</a>
   </li>
+  <li> 
+    <a href="{% url data-search %}">Data Search</a>
+  </li>
+  
 </ul>
 
 <div id="content">
-<h1>Welcome to the Haiti Damage Portal </h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet dui nec mauris condimentum hendrerit a sit amet lacus. Curabitur bibendum eleifend tortor in scelerisque. Curabitur mattis pharetra scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis volutpat enim id nulla eleifend at mattis elit eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed rutrum molestie augue ut malesuada. Vivamus bibendum dolor ut mauris placerat accumsan. Fusce at augue ut neque semper posuere at sit amet lorem. Duis ut sagittis mi. Proin lacus erat, sodales vitae malesuada sit amet, porta sed nunc.</p>
+  <div id="pdf-grid"></div>
 </div>
 {% endblock %}
