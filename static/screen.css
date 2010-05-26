@@ -77,12 +77,21 @@ ul.search {list-style:none;}
 
 ul#search-response li { border-top: 1px solid #2b5080;  margin-left: -20px;  list-style:none; padding: 10px;}
 
-div#static-reports { background:#f8e6b4;}
+.static-reports { background:#f8e6b4; padding: 5px;}
+.static-reports li { margin: 15px; }
+
+.damge-dynamic-reports  { 
+background:#f8e6b4;
+padding: 10px;  }
+
 
 div.table {border: 1px dashed #808080;   }
 .left { float: left; width: 74%; }
 .right {float: right; width: 24%; }
 
+.left-small { float: left; width: 24%; }
+.right-large {float: right; width: 74%; }
+
+
 #app-header { background: #7f2b50 !important;   }
 
-#banner { background: none !important;  }
