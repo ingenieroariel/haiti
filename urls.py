@@ -40,5 +40,6 @@ urlpatterns += patterns('haiti.damage.views',
     url(r'^damage/$','index',name='damage-index'),
     url(r'^damage/atlas$','atlas',name='damage-atlas'),                        
     url(r'^damage/reports$','reports',name='damage-reports'),
+    url(r'^damage/get_damage_census$','get_damage_census',name='get_damage_census'),
     url(r'^damage/report/new$','new_report',name='damage-report-new'),
 )

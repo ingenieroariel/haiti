@@ -29,6 +29,17 @@ class DamageReportAdmin(admin.ModelAdmin):
 
 admin.site.register(DamageReports,DamageReportAdmin)
 
+class DamageCensus(models.Model):
+    gid = models.IntegerField(primary_key=True)
+    pid = models.CharField(max_length=254)
+    grade = models.CharField(max_length=254)
+    confidence = models.CharField(max_length=254)
+    comment = models.CharField(max_length=254)
+    the_geom = models.MultiPolygonField()
+    objects = models.GeoManager()
+    class Meta:
+        db_table = u'damage_census'
+
 
 class HaitiAdmin(models.Model):
     gid = models.IntegerField(primary_key=True)

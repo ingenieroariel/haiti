@@ -1,0 +1,70 @@
+{% extends "base.html" %} 
+
+{% block info %} 
+<p>This portal collects information on damage</p>
+{% endblock %}
+
+{% block header_append %} 
+   <script src="/static/ol/OpenLayers.js"></script> 
+
+   <link rel="stylesheet" type="text/css" href="/static/externals/ext/resources/css/ext-all.css" /> 
+   <script type="text/javascript" src="/static/externals/ext/adapter/ext/ext-base.js"></script> 
+   <script type="text/javascript" src="/static/externals/ext/ext-all-debug.js"></script> 
+
+   <link rel="stylesheet" type="text/css" href="/static/externals/geoext/resources/css/geoext-all-debug.css" />
+   <script src="/static/externals/geoext/lib/GeoExt.js"></script> 
+   <script src="/static/externals/gxp/src/script/loader.js"></script> 
+
+
+    <script src="/static/build/geonode-client/gn/ux.js"></script> 
+    <script src="/static/build/geonode-client/geonode-client/gn/GeoNode.js"></script> 
+    <script src="/static/hazard.js"></script> 
+    <script type="text/javascript" src="/static/jquery.js"></script>
+    <script type="text/javascript"> 
+      $(document).ready(function(){
+          loadMap('map'); 
+       });     
+    </script>
+
+{% endblock %}
+
+
+{% block content %} 
+<div class="tall-map" id="map"></div>
+
+<ul class="tabs damage"> 
+  <li>
+    <a href="{% url damage-index %}">Welcome</a>
+  </li>
+ <li> 
+    <a href="{% url damage-atlas %}">Damage Atlas</a>
+  </li>
+  <li class="active"> 
+    <a href="{% url damage-reports %}">Damage Reports</a>
+  </li>
+   <li> 
+    <a href="{% url data-search %}">Data Search</a>
+  </li> 
+</ul>
+
+<div id="content">
+  <div class="wrapper">
+    <div class="left static-reports"> 
+      <p>There are <strong>{{reports.count}}</strong> report(s) about damage</p>
+      <ol>        
+      {% for report in reports %} 
+          <li>
+            <h3><a href="/{{report.File}}">{{report.title}}</a></h3>
+            <p>{{report.summary}}<p>
+        </li>
+      {% endfor %}
+    </ol>
+    </div>
+    <div class="right"> 
+      <h3><a href="{% url damage-report-new %}">
+      Create your own damage report</a></h3>
+    </div>
+  </div>
+</div>
+{% endblock %}
+

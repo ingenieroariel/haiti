@@ -77,8 +77,6 @@ ul.search {list-style:none;}
 
 ul#search-response li { border-top: 1px solid #2b5080;  margin-left: -20px;  list-style:none; padding: 10px;}
 
-.static-reports { background:#f8e6b4; padding: 5px;}
-.static-reports li { margin: 15px; }
 
 .damge-dynamic-reports  { 
 background:#f8e6b4;
@@ -95,3 +93,8 @@ div.table {border: 1px dashed #808080;   }
 
 #app-header { background: #7f2b50 !important;   }
 
+
+#info-dialog .x-toolbar {  
+border: none; 
+background: none;
+ }
