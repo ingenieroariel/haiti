@@ -10,3 +10,6 @@ def atlas(request):
 
 def reports(request): 
     return render_to_response("damage-reports.html")
+
+def new_report(rquest):
+    return render_to_response("damage-reports-new.html")

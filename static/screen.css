@@ -75,17 +75,13 @@ margin-right: 15px;
  }
 ul.search {list-style:none;}
 
-ul#search-response li {
- border-top: 1px solid #2b5080; 
- margin-left: -20px; 
- list-style:none;
- padding: 10px;
- background: #cbcfd4;
-} 
+ul#search-response li { border-top: 1px solid #2b5080;  margin-left: -20px;  list-style:none; padding: 10px;}
+
+div#static-reports { background:#f8e6b4;}
 
 div.table {border: 1px dashed #808080;   }
-div#left { float: left; width: 74%; }
-div#right {float: right; width: 24%; }
+.left { float: left; width: 74%; }
+.right {float: right; width: 24%; }
 
 #app-header { background: #7f2b50 !important;   }
 

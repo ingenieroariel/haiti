@@ -273,10 +273,6 @@ MyHazard.Viewer = Ext.extend(Ext.util.Observable, {
     activate: function(){
         Ext.QuickTips.init();
         this.mapPanel.layers.insert(0, this.backgroundManager.getBackgroundLayers());
-        //populate the map and layer tree according to the
-        //hazard configuration
-
-        //activate the reporting controls.
     },
 
     createReporter: function(handlerType) {
