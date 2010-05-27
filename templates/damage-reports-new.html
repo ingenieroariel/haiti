@@ -33,7 +33,7 @@
 
     <script type="text/javascript" src="/static/jquery.js"></script>
     <script type="text/javascript"> 
-      damage_report("{% url get_damage_census %}")     
+      damage_report("{% url get_damage_census %}","{% url damage-report-create %}")     
     </script>
 
 {% endblock %}
@@ -63,7 +63,7 @@
       <div id="tree"></div>
     </div>
     <div class="right-large damge-dynamic-reports"> 
-      <h3>Haiti Damage Assessment Reports</h3>
+      <h3>Damage buildings in Haiti</h3>
       <div id="damage_results"></div>
     </div>
 </div>

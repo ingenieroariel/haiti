@@ -1,8 +1,7 @@
 
-function damage_report(url) { 
+function damage_report(get_census,download_link) { 
   jQuery.noConflict();
 
-  var reports; 
 
   Ext.onReady(function() { 
       var options = {
@@ -34,12 +33,12 @@ function damage_report(url) {
               }
           });
       };
+
       function make_table(data) { 
-          var html = " <table" + 
+          var html = "<a href=\" "+ download_link + "\">Download PDF</a>" + 
+              " <table" + 
               "<tr><td>Grade 1 |</td><td>Grade 2 |</td><td>Grade 3 |</td><td>Grade 4 |</td><td>Grade 5 |</td></tr>" + 
-              "<tr><td>"+ data['one'] +"</td><td>" + data['two'] +"</td> <td>" + data['three'] +"</td><td>" + data['four'] + "</td> " + 
-              "<td>" + data['five'] + "</td></tr>" +
-              "</table> "; 
+              + "</table> "; 
           return html
           
       } 
@@ -49,7 +48,7 @@ function damage_report(url) {
               new OpenLayers.Projection("EPSG:900913"), 
               new OpenLayers.Projection("EPSG:4326")
           )); 
-          jQuery.post(url, {"geom" : geom}, function(data) { 
+          jQuery.post(get_census, {"geom" : geom}, function(data) { 
               jQuery("#damage_results").html("");
               jQuery("#damage_results").append("<div>"+ make_table(data) + "</div>");
           });

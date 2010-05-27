@@ -92,8 +92,8 @@ class HaitiAdmin(models.Model):
     name_5 = models.CharField(max_length=75)
     type_5 = models.CharField(max_length=25)
     engtype_5 = models.CharField(max_length=25)
-    shape_leng = models.DecimalField(max_digits=65535, decimal_places=65535)
-    shape_area = models.DecimalField(max_digits=65535, decimal_places=65535)
+    shape_leng = models.IntegerField()
+    shape_area = models.IntegerField()
     the_geom = models.MultiPolygonField()
     objects = models.GeoManager()
     class Meta:
