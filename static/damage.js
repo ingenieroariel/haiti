@@ -37,8 +37,8 @@ function damage_report(get_census,download_link) {
       function make_table(data) { 
           var html = "<a href=\" "+ download_link + "\">Download PDF</a>" + 
               " <table" + 
-              "<tr><td>Grade 1 |</td><td>Grade 2 |</td><td>Grade 3 |</td><td>Grade 4 |</td><td>Grade 5 |</td></tr>" + 
-              + "</table> "; 
+              "<tr><td>Grade 4 |</td><td>Grade 5 |</td></tr>" + 
+              "<tr><td>" + data[0] + "</td><td>" + data[0] + "</td></tr></table>"; 
           return html
           
       } 
