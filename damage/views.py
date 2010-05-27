@@ -11,7 +11,6 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.rl_config import defaultPageSize
 from reportlab.lib.units import inch
-from PIL import Image as PILImage
 import StringIO 
 import datetime
 
@@ -47,14 +46,17 @@ def build_wms_image(bbox):
     img = wms.getmap(layers=['haiti'],
                      srs='EPSG:4326',
                      bbox=bbox,
-                     size=(300, 250),
+                     size=(1000, 1000),
+                     bgcolor="#b5d0d0",
                      format='image/jpeg',
                      transparent=True)
     return img
 
+def get_map(map): 
+    img_buffer = StringIO.StringIO(map.read())
+    return Image(img_buffer,5*inch, 3*inch)
+    
 def make_pdf_response(largeMap): 
-    img_buffer = StringIO.StringIO(largeMap.read())
-    image = Image(img_buffer, 2*inch, 2*inch)
     response = HttpResponse(mimetype="application/pdf")
     response["Content-Disposition"] = "attachment; filename=report.pdf"
     styles = getSampleStyleSheet()    
@@ -62,7 +64,7 @@ def make_pdf_response(largeMap):
     Title = Paragraph("Damage Assessment Report",styles["Title"])
     Story = [Spacer(1,2*inch)]
     Story.append(Title)
-    Story.append(image)
+    Story.append(get_map(largeMap))
     doc.build(Story)
     return response
 
