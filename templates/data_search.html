@@ -47,14 +47,14 @@
 {% block content %} 
 <div class="short-map" id="map"></div>
 
-<ul class="tabs hazard"> 
+<ul class="tabs damage"> 
   <li>
-    <a href="{% url hazard-index %}">Welcome</a>
+    <a href="{% url damage-index %}">Welcome</a>
   </li> 
   <li>
-    <a href="{% url hazard-maps %}">Maps</a>
+    <a href="{% url damage-atlas %}">Damage Atlas</a>
   </li> 
-  <li><a href="{% url hazard-reports %}">Reports</a></li> 
+  <li><a href="{% url damage-reports %}">Damage Reports</a></li> 
   <li class="active"><a href="{% url data-search %}">Data Search</a></li> 
   <li class="search"> 
     <form action="{% url data-search %}" method="GET">

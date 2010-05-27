@@ -26,18 +26,12 @@ def make_json(col):
             "comment": x.comment} for x in col]
 
 def group_by_grade(col):
-    counts =  [0,0,0,0,0]
+    counts =  [0,0]
     for record in col: 
-        if record.grade == "1":
-            counts[0] = counts[0] + 1  
-        if record.grade == "2": 
+        if record.damageleve == 4: 
+            counts[0] = counts[0] + 1 
+        if record.damageleve == 5: 
             counts[1] = counts[1] + 1 
-        if record.grade == "3":
-            counts[2] = counts[2] + 1 
-        if record.grade == "4": 
-            counts[3] = counts[3] + 1 
-        if record.grade == "5": 
-            counts[4] = counts[4] + 1 
     return counts 
 
 def build_wms_image(bbox):
