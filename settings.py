@@ -64,7 +64,6 @@ MIDDLEWARE_CLASSES = (
 )
 MINIFIED_RESOURCES = False
 GEOSERVER_CREDENTIALS = "admin", "geoserver"
-GEOSERVER_BASE_URL = "http://localhost:8001/geoserver/"
 DEFAULT_MAP_BASE_LAYER = "base:nic_admin"
 DEFAULT_MAP_CENTER = [-84.7, 12.8]
 DEFAULT_MAP_ZOOM = 7
@@ -76,9 +75,9 @@ TEMPLATE_DIRS = (
 
 #    "/home/ivan/Work/Haiti/haiti/templates",
 #    "/home/ivan/Work/Haiti/src/geonodepy/geonode/templates"
-
-    "/home/ivan/dev/Haiti/haiti/templates",
-    "/home/ivan/dev/Haiti/src/geonodepy/geonode/templates"
+	"/usr/local/haiti/haiti/templates"
+#    "/home/ivan/dev/Haiti/haiti/templates",
+#    "/home/ivan/dev/Haiti/src/geonodepy/geonode/templates"
 
 
 )
@@ -97,8 +96,8 @@ INSTALLED_APPS = (
     'haiti.damage',
 
 )
-GEOSERVER_BASE_URL = "http://localhost:8001/geoserver"
-GEONETWORK_BASE_URL = "http://localhost:8001/geonetwork/"
+GEOSERVER_BASE_URL = "http://haiti.opengeo.org:8080/geoserver-geonode-dev/"
+GEONETWORK_BASE_URL = "http://haiti.opengeo.org:8080/geonetwork/"
 GEONETWORK_CREDENTIALS = ("admin","admin")
 
 GOOGLE_API_KEY = "ABQIAAAAkofooZxTfcCv9Wi3zzGTVxTnme5EwnLVtEDGnh-lFVzRJhbdQhQgAhB1eT_2muZtc0dl-ZSWrtzmrw"
