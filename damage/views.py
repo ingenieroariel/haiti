@@ -47,7 +47,7 @@ def build_wms_image(bbox):
     img = wms.getmap(layers=['haiti'],
                      srs='EPSG:4326',
                      bbox=bbox,
-                     size=(300, 500),
+                     size=(1400, 700),
                      bgcolor="#b5d0d0",
                      format='image/jpeg',
                      transparent=True)
@@ -55,7 +55,7 @@ def build_wms_image(bbox):
 
 def get_map(map): 
     img_buffer = StringIO.StringIO(map.read())
-    return Image(img_buffer,500, 300)
+    return Image(img_buffer,700, 350)
 
 def make_chart(stats):
     drawing = Drawing()
