@@ -103,7 +103,7 @@ def create_report(request):
 def get_damage_census(request): 
     if request.method == "POST": 
         geom = request.POST.get("geom")
-        search = GEOSGeometry(str("""	{\"type\":"\Polygon\",\"coordinates\":[[[-72.66871708055,18.443132447403],[-72.516281777822,18.388407981226],[-72.245743447754,18.46918559509],[-72.319901162595,18.590280686204],[-72.573960000476,18.57466033674],[-72.66871708055,18.517373485287],[-72.66871708055,18.443132447403]]]"""))
+        search = GEOSGeometry("%s" % geom)
         census = DamageCensus.objects.filter(the_geom__within=search)        
         grouped = group_by_grade(census)
         request.session["report_bbox"] = search.extent        
