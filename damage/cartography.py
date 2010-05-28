@@ -17,8 +17,7 @@ class GeoServer(object):
                 transpartent=True,
                 bgcolor="#fffff",
                 method="GET",
-                exceptions='application/vnd.ogc.se_xml'): 
-        
+                exceptions='application/vnd.ogc.se_xml'):         
         request = {"version": self.version,"request" : "GetMap","service" : "WMS"}
         request["width"] = str(size[0])
         request["height"] = str(size[1])
