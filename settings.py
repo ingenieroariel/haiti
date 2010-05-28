@@ -214,4 +214,7 @@ else:
     }
 
 
-
+try:
+    from local_settings import *
+except ImportError, exp:
+    pass
