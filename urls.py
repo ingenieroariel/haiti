@@ -4,7 +4,7 @@ import geonode
 from geonode.proxy.views import proxy
 from haiti import views
 from geonode.maps.views import metadata_search
-
+from django.conf import settings
 
 from django.contrib import admin
 admin.autodiscover()
@@ -17,8 +17,6 @@ urlpatterns = patterns('',
     url(r'^data/browse/$',views.browse_data,name="data-search"),
     url(r'^data/search/$',metadata_search,name="ajax-search"),
 
-    (r'^static/(?P<path>.*)$', 'django.views.static.serve', 
-     {'document_root': "static"}),
 )
 
 urlpatterns += patterns('',
@@ -48,3 +46,9 @@ urlpatterns += patterns('haiti.damage.views',
     url(r'^damage/report/new$','new_report',name='damage-report-new'),
     url(r'^damage/report/create$','create_report',name='damage-report-create'),                        
 )
+
+if settings.DEBUG:
+    urlpatterns += patterns('',
+        (r'^static/(?P<path>.*)$', 'django.views.static.serve',
+            {'document_root': "static"}),
+    )
