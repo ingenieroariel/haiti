@@ -2,6 +2,9 @@
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 ADMINS = (
     # ('Your Name', 'your_email@domain.com'),
 )
@@ -35,12 +38,12 @@ USE_I18N = True
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
-MEDIA_ROOT = ''
+MEDIA_ROOT = os.path.join(BASE_DIR,'static')
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
 # Examples: "http://media.lawrence.com", "http://example.com/media/"
-MEDIA_URL = ''
+MEDIA_URL = '//'
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
@@ -62,6 +65,15 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
 )
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.contrib.auth.context_processors.auth',
+    'django.core.context_processors.debug',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.media',
+    'django.contrib.messages.context_processors.messages',
+)
+
 MINIFIED_RESOURCES = False
 GEOSERVER_CREDENTIALS = "admin", "geoserver"
 DEFAULT_MAP_BASE_LAYER = "base:nic_admin"
@@ -72,14 +84,8 @@ DEFAULT_MAP_ZOOM = 7
 ROOT_URLCONF = 'haiti.urls'
 
 TEMPLATE_DIRS = ( 
-
-#    "/home/ivan/Work/Haiti/haiti/templates",
-#    "/home/ivan/Work/Haiti/src/geonodepy/geonode/templates"
-#	"/usr/local/haiti/haiti/templates"
-    "/home/ivan/dev/Haiti/haiti/templates",
-    "/home/ivan/dev/Haiti/src/geonodepy/geonode/templates"
-
-
+    os.path.join(BASE_DIR,'templates'),
+    # The geonode templates are included if you add it to installed apps.
 )
 
 INSTALLED_APPS = (
@@ -89,12 +95,12 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
+    'geonode',
     'geonode.core',
     'geonode.maps',
     'geonode.proxy',
     'haiti.myhazard',
     'haiti.damage',
-
 )
 
 # production settings
@@ -142,12 +148,16 @@ NAVBAR = \
           'item_class': '',
           'link_class': '',
           'text': 'Data',
-          'url': "geonode.views.static page='data'"},
+          'url': 'data',
+         # 'url': "geonode.views.static page='data'",
+          },
  'help': {'id': '%sLink',
           'item_class': '',
           'link_class': '',
           'text': 'Help',
-          'url': "geonode.views.static page='help'"},
+          'url': 'help',
+          #'url': "geonode.views.static page='help'",
+         },
 #  'index': {'id': '%sLink',
 #            'item_class': '',
 #            'link_class': '',

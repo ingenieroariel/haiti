@@ -2,9 +2,9 @@
 <html> 
     <head> 
         <title>{% block title %} {% endblock %}</title>
-        <link rel="stylesheet" href="/static/screen.css" type="text/css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="{{ MEDIA_URL }}/css/screen.css" type="text/css" media="screen" charset="utf-8">
          <!--[if lte IE 6]>
-             <link rel="stylesheet" href="static/ie6.css" type="text/css" media="screen" charset="utf-8">
+             <link rel="stylesheet" href="{{ MEDIA_URL }}/css/ie6.css" type="text/css" media="screen" charset="utf-8">
              <![endif]-->
 
          {% block header_append %} 

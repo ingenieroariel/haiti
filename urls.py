@@ -1,4 +1,5 @@
 from django.conf.urls.defaults import *
+from django.views.generic.simple import direct_to_template 
 import geonode 
 from geonode.proxy.views import proxy
 from haiti import views
@@ -10,6 +11,9 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$',views.haiti_index,name="site-index"),
+    url(r'^data/$', direct_to_template, {'template':'data.html'}, "data"),
+    url(r'^help/$', direct_to_template, {'template':'help.html'}, "help"),
+
     url(r'^data/browse/$',views.browse_data,name="data-search"),
     url(r'^data/search/$',metadata_search,name="ajax-search"),
 

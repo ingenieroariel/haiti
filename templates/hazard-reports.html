@@ -1,20 +1,20 @@
 {% extends "base.html" %} 
 
 {% block header_append %} 
-   <script src="/static/ol/OpenLayers.js"></script> 
+   <script src="{{ MEDIA_URL }}/ol/OpenLayers.js"></script> 
 
-   <link rel="stylesheet" type="text/css" href="/static/externals/ext/resources/css/ext-all.css" /> 
-   <script type="text/javascript" src="/static/externals/ext/adapter/ext/ext-base.js"></script> 
-   <script type="text/javascript" src="/static/externals/ext/ext-all-debug.js"></script> 
+   <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}/externals/ext/resources/css/ext-all.css" /> 
+   <script type="text/javascript" src="{{ MEDIA_URL }}/externals/ext/adapter/ext/ext-base.js"></script> 
+   <script type="text/javascript" src="{{ MEDIA_URL }}/externals/ext/ext-all-debug.js"></script> 
 
-   <link rel="stylesheet" type="text/css" href="/static/externals/geoext/resources/css/geoext-all-debug.css" />
-   <script src="/static/externals/geoext/lib/GeoExt.js"></script> 
-   <script src="/static/externals/gxp/src/script/loader.js"></script> 
+   <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}/externals/geoext/resources/css/geoext-all-debug.css" />
+   <script src="{{ MEDIA_URL }}/externals/geoext/lib/GeoExt.js"></script> 
+   <script src="{{ MEDIA_URL }}/externals/gxp/src/script/loader.js"></script> 
 
 
-    <script src="/static/build/geonode-client/gn/ux.js"></script> 
-    <script src="/static/build/geonode-client/geonode-client/gn/GeoNode.js"></script> 
-    <script src="/static/hazard.js"></script> 
+    <script src="{{ MEDIA_URL }}/build/geonode-client/gn/ux.js"></script> 
+    <script src="{{ MEDIA_URL }}/build/geonode-client/geonode-client/gn/GeoNode.js"></script> 
+    <script src="{{ MEDIA_URL }}/js/hazard.js"></script> 
     <script type="text/javascript"> 
       loadMap('map'); 
     </script>
